@@ -1,0 +1,24 @@
+[1.950s] Invoking command in '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/01_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/01_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/01_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/01_pkg/build --no-deps symlink_data
+[2.397s] running develop
+[2.670s] running egg_info
+[2.670s] creating 01_pkg.egg-info
+[2.696s] writing 01_pkg.egg-info/PKG-INFO
+[2.696s] writing dependency_links to 01_pkg.egg-info/dependency_links.txt
+[2.696s] writing entry points to 01_pkg.egg-info/entry_points.txt
+[2.696s] writing requirements to 01_pkg.egg-info/requires.txt
+[2.697s] writing top-level names to 01_pkg.egg-info/top_level.txt
+[2.697s] writing manifest file '01_pkg.egg-info/SOURCES.txt'
+[2.751s] reading manifest file '01_pkg.egg-info/SOURCES.txt'
+[2.751s] writing manifest file '01_pkg.egg-info/SOURCES.txt'
+[2.779s] running build_ext
+[2.779s] Creating /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/01_pkg/lib/python3.12/site-packages/01-pkg.egg-link (link to .)
+[2.780s] Installing my_node script to /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/01_pkg/lib/01_pkg
+[2.781s] 
+[2.781s] Installed /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/01_pkg
+[2.781s] running symlink_data
+[2.781s] creating /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/01_pkg/share/ament_index
+[2.781s] creating /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/01_pkg/share/ament_index/resource_index
+[2.781s] creating /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/01_pkg/share/ament_index/resource_index/packages
+[2.782s] symbolically linking /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/01_pkg/resource/01_pkg -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/01_pkg/share/ament_index/resource_index/packages
+[2.782s] symbolically linking /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/01_pkg/package.xml -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/01_pkg/share/01_pkg
+[2.836s] Invoked command in '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/01_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/01_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/01_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/01_pkg/build --no-deps symlink_data
