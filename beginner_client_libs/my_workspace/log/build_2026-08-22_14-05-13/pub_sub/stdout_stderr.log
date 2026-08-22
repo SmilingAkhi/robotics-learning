@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing pub_sub.egg-info/PKG-INFO
+writing dependency_links to pub_sub.egg-info/dependency_links.txt
+writing entry points to pub_sub.egg-info/entry_points.txt
+writing requirements to pub_sub.egg-info/requires.txt
+writing top-level names to pub_sub.egg-info/top_level.txt
+reading manifest file 'pub_sub.egg-info/SOURCES.txt'
+writing manifest file 'pub_sub.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/python3.12/site-packages/pub-sub.egg-link (link to .)
+Installing listener script to /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/pub_sub
+Installing talker script to /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/pub_sub
+
+Installed /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub
+running symlink_data
+symbolically linking /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/resource/pub_sub -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/share/ament_index/resource_index/packages
+symbolically linking /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/package.xml -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/share/pub_sub

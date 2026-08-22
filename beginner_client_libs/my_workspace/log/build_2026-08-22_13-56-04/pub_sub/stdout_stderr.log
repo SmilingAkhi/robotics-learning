@@ -1,0 +1,40 @@
+running egg_info
+creating ../../build/pub_sub/pub_sub.egg-info
+writing ../../build/pub_sub/pub_sub.egg-info/PKG-INFO
+writing dependency_links to ../../build/pub_sub/pub_sub.egg-info/dependency_links.txt
+writing entry points to ../../build/pub_sub/pub_sub.egg-info/entry_points.txt
+writing requirements to ../../build/pub_sub/pub_sub.egg-info/requires.txt
+writing top-level names to ../../build/pub_sub/pub_sub.egg-info/top_level.txt
+writing manifest file '../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+reading manifest file '../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/build
+creating /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/build/lib
+creating /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/build/lib/pub_sub
+copying pub_sub/publisher_member_function.py -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/build/lib/pub_sub
+copying pub_sub/subscriber_member_function.py -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/build/lib/pub_sub
+copying pub_sub/__init__.py -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/build/lib/pub_sub
+running install
+running install_lib
+creating /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/python3.12/site-packages/pub_sub
+copying /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/build/lib/pub_sub/publisher_member_function.py -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/python3.12/site-packages/pub_sub
+copying /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/build/lib/pub_sub/subscriber_member_function.py -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/python3.12/site-packages/pub_sub
+copying /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/build/lib/pub_sub/__init__.py -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/python3.12/site-packages/pub_sub
+byte-compiling /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/python3.12/site-packages/pub_sub/publisher_member_function.py to publisher_member_function.cpython-312.pyc
+byte-compiling /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/python3.12/site-packages/pub_sub/subscriber_member_function.py to subscriber_member_function.cpython-312.pyc
+byte-compiling /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/python3.12/site-packages/pub_sub/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/share/ament_index
+creating /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/share/ament_index/resource_index
+creating /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/share/ament_index/resource_index/packages
+copying resource/pub_sub -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/share/ament_index/resource_index/packages
+copying package.xml -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/share/pub_sub
+running install_egg_info
+Copying ../../build/pub_sub/pub_sub.egg-info to /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/python3.12/site-packages/pub_sub-0.0.0-py3.12.egg-info
+running install_scripts
+Installing listener script to /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/pub_sub
+Installing talker script to /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/pub_sub
+writing list of installed files to '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/install.log'

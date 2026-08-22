@@ -1,0 +1,52 @@
+[0.000000] (-) TimerEvent: {}
+[0.000550] (-) JobUnselected: {'identifier': 'my_first_pkg'}
+[0.000640] (pub_sub) JobQueued: {'identifier': 'pub_sub', 'dependencies': OrderedDict()}
+[0.000999] (pub_sub) JobStarted: {'identifier': 'pub_sub'}
+[0.099529] (-) TimerEvent: {}
+[0.200048] (-) TimerEvent: {}
+[0.300525] (-) TimerEvent: {}
+[0.400964] (-) TimerEvent: {}
+[0.501435] (-) TimerEvent: {}
+[0.601969] (-) TimerEvent: {}
+[0.702672] (-) TimerEvent: {}
+[0.803191] (-) TimerEvent: {}
+[0.903689] (-) TimerEvent: {}
+[1.004205] (-) TimerEvent: {}
+[1.104713] (-) TimerEvent: {}
+[1.205202] (-) TimerEvent: {}
+[1.305644] (-) TimerEvent: {}
+[1.406093] (-) TimerEvent: {}
+[1.506520] (-) TimerEvent: {}
+[1.606985] (-) TimerEvent: {}
+[1.694697] (pub_sub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_GB:en', 'USER': 'koji', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/koji', 'OLDPWD': '/home/koji/robotics/robotics-learning', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '1840', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'koji', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'koji', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Abdulrahman-Thinkpal:@/tmp/.ICE-unix/1619,unix/Abdulrahman-Thinkpal:/tmp/.ICE-unix/1619', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ffe32795_c0aa_41b1_9c64_138e5deedbfa', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.FYOKU3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.126', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.707115] (-) TimerEvent: {}
+[1.807533] (-) TimerEvent: {}
+[1.908040] (-) TimerEvent: {}
+[2.008520] (-) TimerEvent: {}
+[2.109005] (-) TimerEvent: {}
+[2.167553] (pub_sub) StdoutLine: {'line': b'running develop\n'}
+[2.209146] (-) TimerEvent: {}
+[2.309526] (-) TimerEvent: {}
+[2.409935] (-) TimerEvent: {}
+[2.447396] (pub_sub) StdoutLine: {'line': b'running egg_info\n'}
+[2.473338] (pub_sub) StdoutLine: {'line': b'writing pub_sub.egg-info/PKG-INFO\n'}
+[2.473774] (pub_sub) StdoutLine: {'line': b'writing dependency_links to pub_sub.egg-info/dependency_links.txt\n'}
+[2.474117] (pub_sub) StdoutLine: {'line': b'writing entry points to pub_sub.egg-info/entry_points.txt\n'}
+[2.474375] (pub_sub) StdoutLine: {'line': b'writing requirements to pub_sub.egg-info/requires.txt\n'}
+[2.474554] (pub_sub) StdoutLine: {'line': b'writing top-level names to pub_sub.egg-info/top_level.txt\n'}
+[2.510077] (-) TimerEvent: {}
+[2.526746] (pub_sub) StdoutLine: {'line': b"reading manifest file 'pub_sub.egg-info/SOURCES.txt'\n"}
+[2.527785] (pub_sub) StdoutLine: {'line': b"writing manifest file 'pub_sub.egg-info/SOURCES.txt'\n"}
+[2.555411] (pub_sub) StdoutLine: {'line': b'running build_ext\n'}
+[2.555792] (pub_sub) StdoutLine: {'line': b'Creating /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/python3.12/site-packages/pub-sub.egg-link (link to .)\n'}
+[2.556426] (pub_sub) StdoutLine: {'line': b'Installing listener script to /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/pub_sub\n'}
+[2.556819] (pub_sub) StdoutLine: {'line': b'Installing talker script to /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/pub_sub\n'}
+[2.557111] (pub_sub) StdoutLine: {'line': b'\n'}
+[2.557333] (pub_sub) StdoutLine: {'line': b'Installed /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub\n'}
+[2.557587] (pub_sub) StdoutLine: {'line': b'running symlink_data\n'}
+[2.557849] (pub_sub) StdoutLine: {'line': b'symbolically linking /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/resource/pub_sub -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/share/ament_index/resource_index/packages\n'}
+[2.558033] (pub_sub) StdoutLine: {'line': b'symbolically linking /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/package.xml -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/share/pub_sub\n'}
+[2.609895] (pub_sub) CommandEnded: {'returncode': 0}
+[2.610733] (-) TimerEvent: {}
+[2.635838] (pub_sub) JobEnded: {'identifier': 'pub_sub', 'rc': 0}
+[2.637403] (-) EventReactorShutdown: {}

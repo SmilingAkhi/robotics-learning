@@ -1,0 +1,42 @@
+[1.192s] Invoking command in '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/src/pub_sub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pub_sub build --build-base /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/build install --record /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/install.log --install-scripts $base/lib/pub_sub --single-version-externally-managed install_data
+[1.570s] running egg_info
+[1.570s] creating ../../build/pub_sub/pub_sub.egg-info
+[1.596s] writing ../../build/pub_sub/pub_sub.egg-info/PKG-INFO
+[1.596s] writing dependency_links to ../../build/pub_sub/pub_sub.egg-info/dependency_links.txt
+[1.597s] writing entry points to ../../build/pub_sub/pub_sub.egg-info/entry_points.txt
+[1.597s] writing requirements to ../../build/pub_sub/pub_sub.egg-info/requires.txt
+[1.597s] writing top-level names to ../../build/pub_sub/pub_sub.egg-info/top_level.txt
+[1.598s] writing manifest file '../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+[1.651s] reading manifest file '../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+[1.652s] adding license file 'LICENSE'
+[1.652s] writing manifest file '../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+[1.653s] running build
+[1.653s] running build_py
+[1.653s] creating /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/build
+[1.653s] creating /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/build/lib
+[1.654s] creating /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/build/lib/pub_sub
+[1.654s] copying pub_sub/publisher_member_function.py -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/build/lib/pub_sub
+[1.654s] copying pub_sub/subscriber_member_function.py -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/build/lib/pub_sub
+[1.655s] copying pub_sub/__init__.py -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/build/lib/pub_sub
+[1.655s] running install
+[1.664s] running install_lib
+[1.691s] creating /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/python3.12/site-packages/pub_sub
+[1.691s] copying /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/build/lib/pub_sub/publisher_member_function.py -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/python3.12/site-packages/pub_sub
+[1.692s] copying /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/build/lib/pub_sub/subscriber_member_function.py -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/python3.12/site-packages/pub_sub
+[1.692s] copying /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/build/lib/pub_sub/__init__.py -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/python3.12/site-packages/pub_sub
+[1.692s] byte-compiling /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/python3.12/site-packages/pub_sub/publisher_member_function.py to publisher_member_function.cpython-312.pyc
+[1.693s] byte-compiling /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/python3.12/site-packages/pub_sub/subscriber_member_function.py to subscriber_member_function.cpython-312.pyc
+[1.694s] byte-compiling /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/python3.12/site-packages/pub_sub/__init__.py to __init__.cpython-312.pyc
+[1.694s] running install_data
+[1.695s] creating /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/share/ament_index
+[1.695s] creating /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/share/ament_index/resource_index
+[1.695s] creating /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/share/ament_index/resource_index/packages
+[1.695s] copying resource/pub_sub -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/share/ament_index/resource_index/packages
+[1.696s] copying package.xml -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/share/pub_sub
+[1.696s] running install_egg_info
+[1.724s] Copying ../../build/pub_sub/pub_sub.egg-info to /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/python3.12/site-packages/pub_sub-0.0.0-py3.12.egg-info
+[1.726s] running install_scripts
+[1.909s] Installing listener script to /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/pub_sub
+[1.909s] Installing talker script to /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/pub_sub
+[1.909s] writing list of installed files to '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/install.log'
+[1.983s] Invoked command in '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/src/pub_sub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pub_sub build --build-base /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/build install --record /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/install.log --install-scripts $base/lib/pub_sub --single-version-externally-managed install_data
