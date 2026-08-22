@@ -1,0 +1,38 @@
+[0.892s] Invoking command in '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/src/my_first_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/my_first_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/my_first_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_pkg build --build-base /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/my_first_pkg/build install --record /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/my_first_pkg/install.log --install-scripts $base/lib/my_first_pkg --single-version-externally-managed install_data
+[1.128s] running egg_info
+[1.128s] creating ../../build/my_first_pkg/my_first_pkg.egg-info
+[1.143s] writing ../../build/my_first_pkg/my_first_pkg.egg-info/PKG-INFO
+[1.144s] writing dependency_links to ../../build/my_first_pkg/my_first_pkg.egg-info/dependency_links.txt
+[1.144s] writing entry points to ../../build/my_first_pkg/my_first_pkg.egg-info/entry_points.txt
+[1.144s] writing requirements to ../../build/my_first_pkg/my_first_pkg.egg-info/requires.txt
+[1.144s] writing top-level names to ../../build/my_first_pkg/my_first_pkg.egg-info/top_level.txt
+[1.144s] writing manifest file '../../build/my_first_pkg/my_first_pkg.egg-info/SOURCES.txt'
+[1.176s] reading manifest file '../../build/my_first_pkg/my_first_pkg.egg-info/SOURCES.txt'
+[1.176s] adding license file 'LICENSE'
+[1.176s] writing manifest file '../../build/my_first_pkg/my_first_pkg.egg-info/SOURCES.txt'
+[1.177s] running build
+[1.177s] running build_py
+[1.177s] creating /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/my_first_pkg/build
+[1.177s] creating /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/my_first_pkg/build/lib
+[1.177s] creating /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/my_first_pkg/build/lib/my_first_pkg
+[1.177s] copying my_first_pkg/sample_node.py -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/my_first_pkg/build/lib/my_first_pkg
+[1.177s] copying my_first_pkg/__init__.py -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/my_first_pkg/build/lib/my_first_pkg
+[1.177s] running install
+[1.183s] running install_lib
+[1.199s] creating /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg
+[1.199s] copying /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/my_first_pkg/build/lib/my_first_pkg/sample_node.py -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg
+[1.199s] copying /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/my_first_pkg/build/lib/my_first_pkg/__init__.py -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg
+[1.200s] byte-compiling /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg/sample_node.py to sample_node.cpython-312.pyc
+[1.200s] byte-compiling /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg/__init__.py to __init__.cpython-312.pyc
+[1.200s] running install_data
+[1.200s] creating /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/my_first_pkg/share/ament_index
+[1.200s] creating /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/my_first_pkg/share/ament_index/resource_index
+[1.201s] creating /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/my_first_pkg/share/ament_index/resource_index/packages
+[1.201s] copying resource/my_first_pkg -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/my_first_pkg/share/ament_index/resource_index/packages
+[1.201s] copying package.xml -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/my_first_pkg/share/my_first_pkg
+[1.201s] running install_egg_info
+[1.217s] Copying ../../build/my_first_pkg/my_first_pkg.egg-info to /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg-0.0.0-py3.12.egg-info
+[1.218s] running install_scripts
+[1.327s] Installing sample_node script to /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/my_first_pkg/lib/my_first_pkg
+[1.327s] writing list of installed files to '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/my_first_pkg/install.log'
+[1.363s] Invoked command in '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/src/my_first_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/my_first_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/my_first_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_pkg build --build-base /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/my_first_pkg/build install --record /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/my_first_pkg/install.log --install-scripts $base/lib/my_first_pkg --single-version-externally-managed install_data

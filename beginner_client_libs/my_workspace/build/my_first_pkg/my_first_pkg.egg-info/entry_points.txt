@@ -1,0 +1,2 @@
+[console_scripts]
+sample_node = my_first_pkg.sample_node:main
