@@ -1,0 +1,18 @@
+[1.608s] Invoking command in '/home/koji/project_ws/build/temperature_monitor_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/koji/project_ws/build/temperature_monitor_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koji/project_ws/install/temperature_monitor_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/koji/project_ws/build/temperature_monitor_pkg/build --no-deps symlink_data
+[2.040s] running develop
+[2.309s] running egg_info
+[2.336s] writing temperature_monitor_pkg.egg-info/PKG-INFO
+[2.336s] writing dependency_links to temperature_monitor_pkg.egg-info/dependency_links.txt
+[2.336s] writing entry points to temperature_monitor_pkg.egg-info/entry_points.txt
+[2.336s] writing requirements to temperature_monitor_pkg.egg-info/requires.txt
+[2.337s] writing top-level names to temperature_monitor_pkg.egg-info/top_level.txt
+[2.388s] reading manifest file 'temperature_monitor_pkg.egg-info/SOURCES.txt'
+[2.389s] writing manifest file 'temperature_monitor_pkg.egg-info/SOURCES.txt'
+[2.417s] running build_ext
+[2.417s] Creating /home/koji/project_ws/install/temperature_monitor_pkg/lib/python3.12/site-packages/temperature-monitor-pkg.egg-link (link to .)
+[2.418s] Installing listener script to /home/koji/project_ws/install/temperature_monitor_pkg/lib/temperature_monitor_pkg
+[2.419s] Installing talker script to /home/koji/project_ws/install/temperature_monitor_pkg/lib/temperature_monitor_pkg
+[2.419s] 
+[2.419s] Installed /home/koji/project_ws/build/temperature_monitor_pkg
+[2.419s] running symlink_data
+[2.472s] Invoked command in '/home/koji/project_ws/build/temperature_monitor_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/koji/project_ws/build/temperature_monitor_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koji/project_ws/install/temperature_monitor_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/koji/project_ws/build/temperature_monitor_pkg/build --no-deps symlink_data
