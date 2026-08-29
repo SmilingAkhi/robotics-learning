@@ -1,0 +1,9 @@
+source;share/addition_qlty_checker_pkg/hook/pythonpath.ps1
+source;share/addition_qlty_checker_pkg/hook/pythonpath.dsv
+source;share/addition_qlty_checker_pkg/hook/pythonpath.sh
+source;share/addition_qlty_checker_pkg/hook/ament_prefix_path.ps1
+source;share/addition_qlty_checker_pkg/hook/ament_prefix_path.dsv
+source;share/addition_qlty_checker_pkg/hook/ament_prefix_path.sh
+source;../../build/addition_qlty_checker_pkg/share/addition_qlty_checker_pkg/hook/pythonpath_develop.ps1
+source;../../build/addition_qlty_checker_pkg/share/addition_qlty_checker_pkg/hook/pythonpath_develop.dsv
+source;../../build/addition_qlty_checker_pkg/share/addition_qlty_checker_pkg/hook/pythonpath_develop.sh

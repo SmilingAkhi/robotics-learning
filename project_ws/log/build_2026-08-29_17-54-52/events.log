@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000528] (-) JobUnselected: {'identifier': 'addition_qlty_checker_pkg'}
+[0.000614] (-) JobUnselected: {'identifier': 'temperature_monitor_pkg'}
+[0.000659] (-) EventReactorShutdown: {}

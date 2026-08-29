@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+addition_qlty_checker_pkg/__init__.py
+addition_qlty_checker_pkg/client_func.py
+addition_qlty_checker_pkg/service_func.py
+addition_qlty_checker_pkg.egg-info/PKG-INFO
+addition_qlty_checker_pkg.egg-info/SOURCES.txt
+addition_qlty_checker_pkg.egg-info/dependency_links.txt
+addition_qlty_checker_pkg.egg-info/entry_points.txt
+addition_qlty_checker_pkg.egg-info/requires.txt
+addition_qlty_checker_pkg.egg-info/top_level.txt
+addition_qlty_checker_pkg.egg-info/zip-safe
+resource/addition_qlty_checker_pkg

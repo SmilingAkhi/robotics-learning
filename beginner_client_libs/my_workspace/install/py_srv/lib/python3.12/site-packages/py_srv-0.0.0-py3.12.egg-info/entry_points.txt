@@ -1,0 +1,3 @@
+[console_scripts]
+client = py_srv.client_func:main
+service = py_srv.service_func:main

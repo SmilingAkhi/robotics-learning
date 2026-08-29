@@ -1,0 +1,3 @@
+[console_scripts]
+client = addition_qlty_checker_pkg.client_func:main
+service = addition_qlty_checker_pkg.service_func:main

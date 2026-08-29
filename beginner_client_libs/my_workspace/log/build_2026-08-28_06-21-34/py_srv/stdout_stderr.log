@@ -1,0 +1,25 @@
+running egg_info
+writing ../../build/py_srv/py_srv.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_srv/py_srv.egg-info/dependency_links.txt
+writing entry points to ../../build/py_srv/py_srv.egg-info/entry_points.txt
+writing requirements to ../../build/py_srv/py_srv.egg-info/requires.txt
+writing top-level names to ../../build/py_srv/py_srv.egg-info/top_level.txt
+reading manifest file '../../build/py_srv/py_srv.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/py_srv/py_srv.egg-info/SOURCES.txt'
+running build
+running build_py
+copying py_srv/service_func.py -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/py_srv/build/lib/py_srv
+running install
+running install_lib
+copying /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/py_srv/build/lib/py_srv/service_func.py -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/py_srv/lib/python3.12/site-packages/py_srv
+byte-compiling /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/py_srv/lib/python3.12/site-packages/py_srv/service_func.py to service_func.cpython-312.pyc
+running install_data
+copying package.xml -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/py_srv/share/py_srv
+running install_egg_info
+removing '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/py_srv/lib/python3.12/site-packages/py_srv-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/py_srv/py_srv.egg-info to /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/py_srv/lib/python3.12/site-packages/py_srv-0.0.0-py3.12.egg-info
+running install_scripts
+Installing client script to /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/py_srv/lib/py_srv
+Installing service script to /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/py_srv/lib/py_srv
+writing list of installed files to '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/py_srv/install.log'

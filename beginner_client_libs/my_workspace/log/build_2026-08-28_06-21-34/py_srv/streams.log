@@ -1,0 +1,27 @@
+[1.202s] Invoking command in '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/src/py_srv': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/py_srv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/py_srv/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srv build --build-base /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/py_srv/build install --record /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/py_srv/install.log --install-scripts $base/lib/py_srv --single-version-externally-managed install_data
+[1.580s] running egg_info
+[1.606s] writing ../../build/py_srv/py_srv.egg-info/PKG-INFO
+[1.606s] writing dependency_links to ../../build/py_srv/py_srv.egg-info/dependency_links.txt
+[1.606s] writing entry points to ../../build/py_srv/py_srv.egg-info/entry_points.txt
+[1.606s] writing requirements to ../../build/py_srv/py_srv.egg-info/requires.txt
+[1.607s] writing top-level names to ../../build/py_srv/py_srv.egg-info/top_level.txt
+[1.661s] reading manifest file '../../build/py_srv/py_srv.egg-info/SOURCES.txt'
+[1.661s] adding license file 'LICENSE'
+[1.661s] writing manifest file '../../build/py_srv/py_srv.egg-info/SOURCES.txt'
+[1.662s] running build
+[1.662s] running build_py
+[1.662s] copying py_srv/service_func.py -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/py_srv/build/lib/py_srv
+[1.662s] running install
+[1.672s] running install_lib
+[1.699s] copying /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/py_srv/build/lib/py_srv/service_func.py -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/py_srv/lib/python3.12/site-packages/py_srv
+[1.700s] byte-compiling /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/py_srv/lib/python3.12/site-packages/py_srv/service_func.py to service_func.cpython-312.pyc
+[1.701s] running install_data
+[1.701s] copying package.xml -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/py_srv/share/py_srv
+[1.701s] running install_egg_info
+[1.729s] removing '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/py_srv/lib/python3.12/site-packages/py_srv-0.0.0-py3.12.egg-info' (and everything under it)
+[1.730s] Copying ../../build/py_srv/py_srv.egg-info to /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/py_srv/lib/python3.12/site-packages/py_srv-0.0.0-py3.12.egg-info
+[1.731s] running install_scripts
+[1.936s] Installing client script to /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/py_srv/lib/py_srv
+[1.937s] Installing service script to /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/py_srv/lib/py_srv
+[1.937s] writing list of installed files to '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/py_srv/install.log'
+[2.033s] Invoked command in '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/src/py_srv' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/py_srv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/py_srv/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srv build --build-base /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/py_srv/build install --record /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/py_srv/install.log --install-scripts $base/lib/py_srv --single-version-externally-managed install_data

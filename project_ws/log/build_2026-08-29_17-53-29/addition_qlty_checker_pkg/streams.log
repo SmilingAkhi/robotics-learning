@@ -1,0 +1,25 @@
+[2.387s] Invoking command in '/home/koji/robotics/robotics-learning/project_ws/build/addition_qlty_checker_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/koji/robotics/robotics-learning/project_ws/build/addition_qlty_checker_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koji/robotics/robotics-learning/project_ws/install/addition_qlty_checker_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/koji/robotics/robotics-learning/project_ws/build/addition_qlty_checker_pkg/build --no-deps symlink_data
+[2.848s] running develop
+[3.121s] running egg_info
+[3.121s] creating addition_qlty_checker_pkg.egg-info
+[3.148s] writing addition_qlty_checker_pkg.egg-info/PKG-INFO
+[3.148s] writing dependency_links to addition_qlty_checker_pkg.egg-info/dependency_links.txt
+[3.148s] writing entry points to addition_qlty_checker_pkg.egg-info/entry_points.txt
+[3.149s] writing requirements to addition_qlty_checker_pkg.egg-info/requires.txt
+[3.149s] writing top-level names to addition_qlty_checker_pkg.egg-info/top_level.txt
+[3.149s] writing manifest file 'addition_qlty_checker_pkg.egg-info/SOURCES.txt'
+[3.202s] reading manifest file 'addition_qlty_checker_pkg.egg-info/SOURCES.txt'
+[3.202s] writing manifest file 'addition_qlty_checker_pkg.egg-info/SOURCES.txt'
+[3.231s] running build_ext
+[3.231s] Creating /home/koji/robotics/robotics-learning/project_ws/install/addition_qlty_checker_pkg/lib/python3.12/site-packages/addition-qlty-checker-pkg.egg-link (link to .)
+[3.232s] Installing client script to /home/koji/robotics/robotics-learning/project_ws/install/addition_qlty_checker_pkg/lib/addition_qlty_checker_pkg
+[3.232s] Installing service script to /home/koji/robotics/robotics-learning/project_ws/install/addition_qlty_checker_pkg/lib/addition_qlty_checker_pkg
+[3.233s] 
+[3.233s] Installed /home/koji/robotics/robotics-learning/project_ws/build/addition_qlty_checker_pkg
+[3.233s] running symlink_data
+[3.234s] creating /home/koji/robotics/robotics-learning/project_ws/install/addition_qlty_checker_pkg/share/ament_index
+[3.234s] creating /home/koji/robotics/robotics-learning/project_ws/install/addition_qlty_checker_pkg/share/ament_index/resource_index
+[3.234s] creating /home/koji/robotics/robotics-learning/project_ws/install/addition_qlty_checker_pkg/share/ament_index/resource_index/packages
+[3.234s] symbolically linking /home/koji/robotics/robotics-learning/project_ws/build/addition_qlty_checker_pkg/resource/addition_qlty_checker_pkg -> /home/koji/robotics/robotics-learning/project_ws/install/addition_qlty_checker_pkg/share/ament_index/resource_index/packages
+[3.235s] symbolically linking /home/koji/robotics/robotics-learning/project_ws/build/addition_qlty_checker_pkg/package.xml -> /home/koji/robotics/robotics-learning/project_ws/install/addition_qlty_checker_pkg/share/addition_qlty_checker_pkg
+[3.292s] Invoked command in '/home/koji/robotics/robotics-learning/project_ws/build/addition_qlty_checker_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/koji/robotics/robotics-learning/project_ws/build/addition_qlty_checker_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koji/robotics/robotics-learning/project_ws/install/addition_qlty_checker_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/koji/robotics/robotics-learning/project_ws/build/addition_qlty_checker_pkg/build --no-deps symlink_data
