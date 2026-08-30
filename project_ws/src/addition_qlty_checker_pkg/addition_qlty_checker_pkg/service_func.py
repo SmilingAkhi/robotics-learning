@@ -11,11 +11,11 @@ class qltyCheckerServiceClass(Node):
 
     def service_callback(self, request, response):
         response.sum =  request.a + request.b 
-        self.get_logger().info('Incoming request\na: %d b: %d' % (request.a, request.b))
-        if response > 100: 
-            self.get_logger().info(f'Large result computed.')
-        else: (f'Normal result computed.')
 
+        if int(response.sum) > 100: 
+            self.get_logger().info(f' Large result computed.')
+        else:self.get_logger().info(f' Normal result computed.')
+       
         return response 
 
 def main():
@@ -25,6 +25,7 @@ def main():
 
     rclpy.spin(additionQltyCheckerService)
 
+    additionQltyCheckerService.destroy_node()
 
     rclpy.shutdown()
 

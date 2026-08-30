@@ -28,12 +28,7 @@ def main():
     future = additionQltyCheckerClient.send_request(int(sys.argv[1]), int(sys.argv[2]))
     rclpy.spin_until_future_complete(additionQltyCheckerClient, future)
     response = future.result()
-   
-    
-    if int(response.sum) > 100: 
-        additionQltyCheckerClient.get_logger().info(f'Large result computed.')
-    else: additionQltyCheckerClient.get_logger().info(f'Normal result computed.')
-
+    additionQltyCheckerClient.get_logger().info(f'The sum is {response.sum}')
     additionQltyCheckerClient.destroy_node()
     rclpy.shutdown()
 
