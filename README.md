@@ -1,19 +1,13 @@
-# First ROS 2 Package
+# Robotics Learning & Development
 
-## Objective
-Learn how to create and build a ROS 2 Python package.
+A repository documenting hands-on robotics development, covering foundational ROS 2 concepts, command-line interfaces, and practical workspace implementations.
 
-## Concepts Learned
-- ROS 2 package structure
-- package.xml
-- setup.py / setup.cfg (or pyproject.toml depending on the template)
-- colcon build
-- sourcing the workspace
+---
 
-## Commands Used
+## 📁 Repository Structure
 
-```bash
-ros2 pkg create ...
-colcon build
-source install/setup.bash
-```
+```text
+.
+├── beginner_cli/       # CLI tutorials, command references, and core ROS 2 concepts
+├── project_ws/         # Active ROS 2 workspace (mini-projects & reinforcement learning)
+└── README.md
