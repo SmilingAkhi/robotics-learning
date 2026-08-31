@@ -1,0 +1,1 @@
+/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/tut_interfaces/rosidl_generator_c/tut_interfaces/msg/detail/num__struct.h

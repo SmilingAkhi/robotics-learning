@@ -1,0 +1,26 @@
+[0.760s] Invoking command in '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/src/pub_sub': AMENT_PREFIX_PATH=/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/python3.12/site-packages:/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pub_sub build --build-base /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/build install --record /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/install.log --install-scripts $base/lib/pub_sub --single-version-externally-managed install_data
+[1.010s] running egg_info
+[1.026s] writing ../../build/pub_sub/pub_sub.egg-info/PKG-INFO
+[1.027s] writing dependency_links to ../../build/pub_sub/pub_sub.egg-info/dependency_links.txt
+[1.027s] writing entry points to ../../build/pub_sub/pub_sub.egg-info/entry_points.txt
+[1.027s] writing requirements to ../../build/pub_sub/pub_sub.egg-info/requires.txt
+[1.027s] writing top-level names to ../../build/pub_sub/pub_sub.egg-info/top_level.txt
+[1.061s] reading manifest file '../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+[1.061s] adding license file 'LICENSE'
+[1.062s] writing manifest file '../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+[1.062s] running build
+[1.062s] running build_py
+[1.063s] copying pub_sub/subscriber_member_function.py -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/build/lib/pub_sub
+[1.063s] running install
+[1.069s] running install_lib
+[1.087s] copying /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/build/lib/pub_sub/subscriber_member_function.py -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/python3.12/site-packages/pub_sub
+[1.087s] byte-compiling /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/python3.12/site-packages/pub_sub/subscriber_member_function.py to subscriber_member_function.cpython-312.pyc
+[1.088s] running install_data
+[1.088s] running install_egg_info
+[1.109s] removing '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/python3.12/site-packages/pub_sub-0.0.0-py3.12.egg-info' (and everything under it)
+[1.110s] Copying ../../build/pub_sub/pub_sub.egg-info to /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/python3.12/site-packages/pub_sub-0.0.0-py3.12.egg-info
+[1.111s] running install_scripts
+[1.239s] Installing listener script to /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/pub_sub
+[1.239s] Installing talker script to /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/pub_sub
+[1.239s] writing list of installed files to '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/install.log'
+[1.280s] Invoked command in '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/src/pub_sub' returned '0': AMENT_PREFIX_PATH=/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/python3.12/site-packages:/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pub_sub build --build-base /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/build install --record /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/install.log --install-scripts $base/lib/pub_sub --single-version-externally-managed install_data

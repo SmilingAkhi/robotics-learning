@@ -1,0 +1,1 @@
+/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/tut_interfaces/rosidl_typesupport_introspection_c/tut_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h

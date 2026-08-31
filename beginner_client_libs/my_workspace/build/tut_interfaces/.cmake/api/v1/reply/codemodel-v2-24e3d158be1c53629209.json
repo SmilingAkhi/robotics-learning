@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3c47575b64df5736453a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "tut_interfaces__py",
+					"jsonFile" : "directory-tut_interfaces__py-9c328302d541c783323f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/tut_interfaces/tut_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "tut_interfaces__rs",
+					"jsonFile" : "directory-tut_interfaces__rs-48555d8b913d3dfda01d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/tut_interfaces/tut_interfaces__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "tut_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_tut_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_tut_interfaces_egg-4a9d8853c21e5178d3b4.json",
+					"name" : "ament_cmake_python_build_tut_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_tut_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_tut_interfaces-4d1e2a840d258e2af2f7.json",
+					"name" : "ament_cmake_python_symlink_tut_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tut_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tut_interfaces-c89c73f98ec2d767dbae.json",
+					"name" : "tut_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tut_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tut_interfaces__cpp-f4bbbe0a1c06b00a9fe4.json",
+					"name" : "tut_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tut_interfaces__py::@456be344fbef44353a94",
+					"jsonFile" : "target-tut_interfaces__py-747227d74f9deba2848f.json",
+					"name" : "tut_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tut_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tut_interfaces__rosidl_generator_c-93fef17a8f49ef2cfe40.json",
+					"name" : "tut_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tut_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tut_interfaces__rosidl_generator_py-396bb5e35d97889befd3.json",
+					"name" : "tut_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tut_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tut_interfaces__rosidl_generator_type_description-a3b83c9fe610a09bb0e2.json",
+					"name" : "tut_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tut_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tut_interfaces__rosidl_typesupport_c-fa79de67654173beb23f.json",
+					"name" : "tut_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tut_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tut_interfaces__rosidl_typesupport_cpp-6b4000e835010707bdaa.json",
+					"name" : "tut_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tut_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tut_interfaces__rosidl_typesupport_fastrtps_c-fb278d0c5969d1cb80bb.json",
+					"name" : "tut_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tut_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tut_interfaces__rosidl_typesupport_fastrtps_cpp-df475dd0e83e456b5a54.json",
+					"name" : "tut_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tut_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tut_interfaces__rosidl_typesupport_introspection_c-fe93e871423a8a14cd8d.json",
+					"name" : "tut_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tut_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tut_interfaces__rosidl_typesupport_introspection_cpp-d82095bf4edeb13f8173.json",
+					"name" : "tut_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "tut_interfaces__rs::@1608a12d64435c209d01",
+					"jsonFile" : "target-tut_interfaces__rs-93bc91a0966df192addf.json",
+					"name" : "tut_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tut_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tut_interfaces_s__rosidl_typesupport_c-f7b82a73eb878840c9da.json",
+					"name" : "tut_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tut_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tut_interfaces_s__rosidl_typesupport_fastrtps_c-9df4819334caff6940fc.json",
+					"name" : "tut_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tut_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tut_interfaces_s__rosidl_typesupport_introspection_c-58fd38c8507bf2f80146.json",
+					"name" : "tut_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tut_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tut_interfaces_uninstall-599e901ccad54dee3b07.json",
+					"name" : "tut_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-970c54b550977590077b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/tut_interfaces",
+		"source" : "/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/src/tut_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,1 @@
+/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/tut_interfaces/rosidl_typesupport_fastrtps_c/tut_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h

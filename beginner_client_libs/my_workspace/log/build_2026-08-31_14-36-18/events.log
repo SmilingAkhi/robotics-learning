@@ -1,0 +1,368 @@
+[0.000000] (-) TimerEvent: {}
+[0.000674] (-) JobUnselected: {'identifier': 'my_first_pkg'}
+[0.000815] (-) JobUnselected: {'identifier': 'pub_sub'}
+[0.000887] (-) JobUnselected: {'identifier': 'py_srv'}
+[0.001014] (tut_interfaces) JobQueued: {'identifier': 'tut_interfaces', 'dependencies': OrderedDict()}
+[0.001070] (tut_interfaces) JobStarted: {'identifier': 'tut_interfaces'}
+[0.009121] (tut_interfaces) JobProgress: {'identifier': 'tut_interfaces', 'progress': 'cmake'}
+[0.009978] (tut_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/src/tut_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces'], 'cwd': '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/tut_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_GB:en', 'USER': 'koji', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/koji', 'OLDPWD': '/home/koji/robotics/robotics-learning/beginner_client_libs', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '1943', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'koji', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'koji', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Abdulrahman-Thinkpal:@/tmp/.ICE-unix/1715,unix/Abdulrahman-Thinkpal:/tmp/.ICE-unix/1715', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3b638030_f7b0_454d_9927_0f41a737b0dd', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.63B8U3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.141', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/tut_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.034677] (tut_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.099537] (-) TimerEvent: {}
+[0.199913] (-) TimerEvent: {}
+[0.271342] (tut_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.300064] (-) TimerEvent: {}
+[0.332623] (tut_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.341259] (tut_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.351813] (tut_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.364265] (tut_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400195] (-) TimerEvent: {}
+[0.403707] (tut_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.413716] (tut_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.500338] (-) TimerEvent: {}
+[0.600668] (-) TimerEvent: {}
+[0.700940] (-) TimerEvent: {}
+[0.801496] (-) TimerEvent: {}
+[0.901882] (-) TimerEvent: {}
+[1.002289] (-) TimerEvent: {}
+[1.102896] (-) TimerEvent: {}
+[1.203275] (-) TimerEvent: {}
+[1.301292] (tut_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.303371] (-) TimerEvent: {}
+[1.403695] (-) TimerEvent: {}
+[1.504086] (-) TimerEvent: {}
+[1.604457] (-) TimerEvent: {}
+[1.704879] (-) TimerEvent: {}
+[1.805303] (-) TimerEvent: {}
+[1.905620] (-) TimerEvent: {}
+[2.005929] (-) TimerEvent: {}
+[2.106255] (-) TimerEvent: {}
+[2.206601] (-) TimerEvent: {}
+[2.306979] (-) TimerEvent: {}
+[2.397824] (tut_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.407176] (-) TimerEvent: {}
+[2.507596] (-) TimerEvent: {}
+[2.607993] (-) TimerEvent: {}
+[2.708365] (-) TimerEvent: {}
+[2.808766] (-) TimerEvent: {}
+[2.833648] (tut_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.846302] (tut_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[2.908954] (-) TimerEvent: {}
+[3.009367] (-) TimerEvent: {}
+[3.009656] (tut_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[3.109520] (-) TimerEvent: {}
+[3.209926] (-) TimerEvent: {}
+[3.310538] (-) TimerEvent: {}
+[3.410968] (-) TimerEvent: {}
+[3.511380] (-) TimerEvent: {}
+[3.551999] (tut_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[3.611718] (-) TimerEvent: {}
+[3.712131] (-) TimerEvent: {}
+[3.728198] (tut_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[3.732960] (tut_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[3.766563] (tut_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.768512] (tut_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.773271] (tut_interfaces) StdoutLine: {'line': b'-- Configuring done (3.7s)\n'}
+[3.812283] (-) TimerEvent: {}
+[3.829915] (tut_interfaces) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.843622] (tut_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/tut_interfaces\n'}
+[3.856895] (tut_interfaces) CommandEnded: {'returncode': 0}
+[3.858758] (tut_interfaces) JobProgress: {'identifier': 'tut_interfaces', 'progress': 'build'}
+[3.858840] (tut_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/tut_interfaces', '--', '-j12', '-l12'], 'cwd': '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/tut_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_GB:en', 'USER': 'koji', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/koji', 'OLDPWD': '/home/koji/robotics/robotics-learning/beginner_client_libs', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '1943', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'koji', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'koji', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Abdulrahman-Thinkpal:@/tmp/.ICE-unix/1715,unix/Abdulrahman-Thinkpal:/tmp/.ICE-unix/1715', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3b638030_f7b0_454d_9927_0f41a737b0dd', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.63B8U3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.141', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/tut_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[3.912425] (-) TimerEvent: {}
+[3.927756] (tut_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[3.939277] (tut_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[3.940122] (tut_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_symlink_tut_interfaces\n'}
+[4.012539] (-) TimerEvent: {}
+[4.112870] (-) TimerEvent: {}
+[4.213214] (-) TimerEvent: {}
+[4.225362] (tut_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[4.226395] (tut_interfaces) StdoutLine: {'line': b'creating tut_interfaces.egg-info\n'}
+[4.237230] (tut_interfaces) StdoutLine: {'line': b'[  3%] Built target tut_interfaces__rosidl_generator_type_description\n'}
+[4.249069] (tut_interfaces) StdoutLine: {'line': b'writing tut_interfaces.egg-info/PKG-INFO\n'}
+[4.249397] (tut_interfaces) StdoutLine: {'line': b'writing dependency_links to tut_interfaces.egg-info/dependency_links.txt\n'}
+[4.249613] (tut_interfaces) StdoutLine: {'line': b'writing top-level names to tut_interfaces.egg-info/top_level.txt\n'}
+[4.249783] (tut_interfaces) StdoutLine: {'line': b"writing manifest file 'tut_interfaces.egg-info/SOURCES.txt'\n"}
+[4.256237] (tut_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.274757] (tut_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.287598] (tut_interfaces) StdoutLine: {'line': b'[  7%] Built target tut_interfaces__rs\n'}
+[4.313369] (-) TimerEvent: {}
+[4.326103] (tut_interfaces) StdoutLine: {'line': b"reading manifest file 'tut_interfaces.egg-info/SOURCES.txt'\n"}
+[4.326677] (tut_interfaces) StdoutLine: {'line': b"writing manifest file 'tut_interfaces.egg-info/SOURCES.txt'\n"}
+[4.380923] (tut_interfaces) StdoutLine: {'line': b'[  7%] Built target ament_cmake_python_build_tut_interfaces_egg\n'}
+[4.413500] (-) TimerEvent: {}
+[4.514076] (-) TimerEvent: {}
+[4.614456] (-) TimerEvent: {}
+[4.669121] (tut_interfaces) StdoutLine: {'line': b'[  7%] Built target tut_interfaces__cpp\n'}
+[4.714626] (-) TimerEvent: {}
+[4.755914] (tut_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/tut_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tut_interfaces/msg/detail/num__functions.c.o\x1b[0m\n'}
+[4.756218] (tut_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/tut_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tut_interfaces/msg/detail/sphere__functions.c.o\x1b[0m\n'}
+[4.756369] (tut_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/tut_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tut_interfaces/msg/detail/sphere__description.c.o\x1b[0m\n'}
+[4.756512] (tut_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/tut_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tut_interfaces/msg/detail/num__description.c.o\x1b[0m\n'}
+[4.756648] (tut_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/tut_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tut_interfaces/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[4.757107] (tut_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/tut_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tut_interfaces/srv/detail/add_three_ints__description.c.o\x1b[0m\n'}
+[4.757279] (tut_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/tut_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tut_interfaces/srv/detail/add_three_ints__functions.c.o\x1b[0m\n'}
+[4.757423] (tut_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/tut_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tut_interfaces/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[4.757572] (tut_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object CMakeFiles/tut_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tut_interfaces/msg/detail/sphere__type_support.c.o\x1b[0m\n'}
+[4.814773] (-) TimerEvent: {}
+[4.883409] (tut_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking C shared library libtut_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[4.914924] (-) TimerEvent: {}
+[4.948735] (tut_interfaces) StdoutLine: {'line': b'[ 25%] Built target tut_interfaces__rosidl_generator_c\n'}
+[4.963665] (tut_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.963977] (tut_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.964129] (tut_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.964272] (tut_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.964409] (tut_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.966561] (tut_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.015050] (-) TimerEvent: {}
+[5.115914] (-) TimerEvent: {}
+[5.216287] (-) TimerEvent: {}
+[5.316692] (-) TimerEvent: {}
+[5.388204] (tut_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/tut_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tut_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[5.388836] (tut_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/tut_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tut_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[5.391088] (tut_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/tut_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tut_interfaces/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[5.416870] (-) TimerEvent: {}
+[5.485016] (tut_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/tut_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tut_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[5.498060] (tut_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/tut_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tut_interfaces/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[5.498368] (tut_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/tut_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tut_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[5.500222] (tut_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/tut_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tut_interfaces/msg/detail/sphere__type_support.c.o\x1b[0m\n'}
+[5.510182] (tut_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/tut_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tut_interfaces/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[5.510753] (tut_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/tut_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tut_interfaces/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[5.517003] (-) TimerEvent: {}
+[5.521585] (tut_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/tut_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tut_interfaces/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[5.587772] (tut_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/tut_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tut_interfaces/msg/detail/sphere__type_support.cpp.o\x1b[0m\n'}
+[5.593905] (tut_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/tut_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tut_interfaces/srv/detail/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[5.617957] (-) TimerEvent: {}
+[5.620173] (tut_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking C shared library libtut_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.641038] (tut_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libtut_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.674552] (tut_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/tut_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tut_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[5.679968] (tut_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/tut_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tut_interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o\x1b[0m\n'}
+[5.681006] (tut_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/tut_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tut_interfaces/msg/detail/num__type_support_c.cpp.o\x1b[0m\n'}
+[5.687777] (tut_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/tut_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tut_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[5.712001] (tut_interfaces) StdoutLine: {'line': b'[ 69%] Built target tut_interfaces__rosidl_typesupport_introspection_c\n'}
+[5.718081] (-) TimerEvent: {}
+[5.740078] (tut_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/tut_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tut_interfaces/msg/detail/sphere__type_support_c.cpp.o\x1b[0m\n'}
+[5.743700] (tut_interfaces) StdoutLine: {'line': b'[ 70%] Built target tut_interfaces__rosidl_typesupport_c\n'}
+[5.766159] (tut_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/tut_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tut_interfaces/srv/detail/add_three_ints__type_support_c.cpp.o\x1b[0m\n'}
+[5.818975] (-) TimerEvent: {}
+[5.919494] (-) TimerEvent: {}
+[6.019959] (-) TimerEvent: {}
+[6.124189] (-) TimerEvent: {}
+[6.224677] (-) TimerEvent: {}
+[6.325175] (-) TimerEvent: {}
+[6.411032] (tut_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libtut_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.425333] (-) TimerEvent: {}
+[6.525964] (-) TimerEvent: {}
+[6.566406] (tut_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libtut_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.610340] (tut_interfaces) StdoutLine: {'line': b'[ 76%] Built target tut_interfaces__rosidl_typesupport_cpp\n'}
+[6.626116] (-) TimerEvent: {}
+[6.721946] (tut_interfaces) StdoutLine: {'line': b'[ 76%] Built target tut_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[6.726242] (-) TimerEvent: {}
+[6.798728] (tut_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libtut_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.801742] (tut_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libtut_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.826376] (-) TimerEvent: {}
+[6.875019] (tut_interfaces) StdoutLine: {'line': b'[ 80%] Built target tut_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[6.926019] (tut_interfaces) StdoutLine: {'line': b'[ 80%] Built target tut_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[6.926368] (-) TimerEvent: {}
+[6.962450] (tut_interfaces) StdoutLine: {'line': b'[ 80%] Built target tut_interfaces\n'}
+[6.991186] (tut_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.026532] (-) TimerEvent: {}
+[7.126915] (-) TimerEvent: {}
+[7.227308] (-) TimerEvent: {}
+[7.327915] (-) TimerEvent: {}
+[7.428971] (-) TimerEvent: {}
+[7.450989] (tut_interfaces) StdoutLine: {'line': b'[ 81%] Built target tut_interfaces__py\n'}
+[7.476385] (tut_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/tut_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tut_interfaces/msg/_sphere_s.c.o\x1b[0m\n'}
+[7.476731] (tut_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/tut_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tut_interfaces/srv/_add_three_ints_s.c.o\x1b[0m\n'}
+[7.482917] (tut_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/tut_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tut_interfaces/msg/_num_s.c.o\x1b[0m\n'}
+[7.529122] (-) TimerEvent: {}
+[7.629585] (-) TimerEvent: {}
+[7.681909] (tut_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library libtut_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[7.729729] (-) TimerEvent: {}
+[7.759562] (tut_interfaces) StdoutLine: {'line': b'[ 89%] Built target tut_interfaces__rosidl_generator_py\n'}
+[7.787016] (tut_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/tut_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/tut_interfaces/_tut_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.788813] (tut_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/tut_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/tut_interfaces/_tut_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.795144] (tut_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/tut_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/tut_interfaces/_tut_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.829860] (-) TimerEvent: {}
+[7.924954] (tut_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/tut_interfaces/tut_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.929962] (-) TimerEvent: {}
+[7.932738] (tut_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/tut_interfaces/tut_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.936687] (tut_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/tut_interfaces/tut_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.974214] (tut_interfaces) StdoutLine: {'line': b'[100%] Built target tut_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[7.974463] (tut_interfaces) StdoutLine: {'line': b'[100%] Built target tut_interfaces_s__rosidl_typesupport_c\n'}
+[7.984136] (tut_interfaces) StdoutLine: {'line': b'[100%] Built target tut_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[7.999707] (tut_interfaces) CommandEnded: {'returncode': 0}
+[8.000359] (tut_interfaces) JobProgress: {'identifier': 'tut_interfaces', 'progress': 'install'}
+[8.012036] (tut_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/tut_interfaces'], 'cwd': '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/tut_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_GB:en', 'USER': 'koji', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/koji', 'OLDPWD': '/home/koji/robotics/robotics-learning/beginner_client_libs', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '1943', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'koji', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'koji', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Abdulrahman-Thinkpal:@/tmp/.ICE-unix/1715,unix/Abdulrahman-Thinkpal:/tmp/.ICE-unix/1715', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3b638030_f7b0_454d_9927_0f41a737b0dd', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.63B8U3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.141', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/tut_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[8.021014] (tut_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.021514] (tut_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.021826] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/ament_index/resource_index/rosidl_interfaces/tut_interfaces\n'}
+[8.030117] (-) TimerEvent: {}
+[8.039166] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/msg/Num.json\n'}
+[8.049172] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/msg/Sphere.json\n'}
+[8.059734] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/srv/AddThreeInts.json\n'}
+[8.071289] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/msg/detail/num__functions.h\n'}
+[8.081276] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/msg/detail/num__struct.h\n'}
+[8.091354] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/msg/detail/num__type_support.h\n'}
+[8.101425] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/msg/detail/sphere__functions.h\n'}
+[8.111522] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/msg/detail/sphere__struct.h\n'}
+[8.121641] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/msg/detail/sphere__type_support.h\n'}
+[8.130226] (-) TimerEvent: {}
+[8.132413] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/msg/num.h\n'}
+[8.152243] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.162004] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/msg/sphere.h\n'}
+[8.180542] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/srv/add_three_ints.h\n'}
+[8.191988] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/srv/detail/add_three_ints__functions.h\n'}
+[8.211667] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/srv/detail/add_three_ints__struct.h\n'}
+[8.221841] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/srv/detail/add_three_ints__type_support.h\n'}
+[8.230373] (-) TimerEvent: {}
+[8.231763] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/environment/library_path.sh\n'}
+[8.242273] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/environment/library_path.dsv\n'}
+[8.258327] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[8.276330] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h\n'}
+[8.286280] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.296430] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[8.307970] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/msg/detail/num__builder.hpp\n'}
+[8.328184] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/msg/detail/num__struct.hpp\n'}
+[8.330497] (-) TimerEvent: {}
+[8.338021] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/msg/detail/num__traits.hpp\n'}
+[8.348327] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/msg/detail/num__type_support.hpp\n'}
+[8.366444] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/msg/detail/sphere__builder.hpp\n'}
+[8.376188] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/msg/detail/sphere__struct.hpp\n'}
+[8.386139] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/msg/detail/sphere__traits.hpp\n'}
+[8.396587] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/msg/detail/sphere__type_support.hpp\n'}
+[8.407121] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/msg/num.hpp\n'}
+[8.417466] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[8.427314] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/msg/sphere.hpp\n'}
+[8.430644] (-) TimerEvent: {}
+[8.438002] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/srv/add_three_ints.hpp\n'}
+[8.448672] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/srv/detail/add_three_ints__builder.hpp\n'}
+[8.458826] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/srv/detail/add_three_ints__struct.hpp\n'}
+[8.469561] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/srv/detail/add_three_ints__traits.hpp\n'}
+[8.479322] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/srv/detail/add_three_ints__type_support.hpp\n'}
+[8.490359] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.500121] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.510470] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.520468] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.530899] (-) TimerEvent: {}
+[8.531237] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[8.549917] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h\n'}
+[8.568005] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.578010] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[8.588912] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.598840] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.608929] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/include/tut_interfaces/tut_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.629892] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/environment/pythonpath.sh\n'}
+[8.631029] (-) TimerEvent: {}
+[8.640403] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/environment/pythonpath.dsv\n'}
+[8.656215] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/python3.12/site-packages/tut_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[8.666536] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/python3.12/site-packages/tut_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[8.676571] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/python3.12/site-packages/tut_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[8.687326] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/python3.12/site-packages/tut_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[8.707624] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/python3.12/site-packages/tut_interfaces/__init__.py\n'}
+[8.718470] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/python3.12/site-packages/tut_interfaces/_tut_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[8.729705] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/python3.12/site-packages/tut_interfaces/_tut_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[8.731162] (-) TimerEvent: {}
+[8.741005] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/python3.12/site-packages/tut_interfaces/_tut_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[8.751265] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/python3.12/site-packages/tut_interfaces/msg/__init__.py\n'}
+[8.761260] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/python3.12/site-packages/tut_interfaces/msg/_num.py\n'}
+[8.771263] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/python3.12/site-packages/tut_interfaces/msg/_num_s.c\n'}
+[8.781169] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/python3.12/site-packages/tut_interfaces/msg/_sphere.py\n'}
+[8.791144] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/python3.12/site-packages/tut_interfaces/msg/_sphere_s.c\n'}
+[8.802153] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/python3.12/site-packages/tut_interfaces/srv/__init__.py\n'}
+[8.812150] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/python3.12/site-packages/tut_interfaces/srv/_add_three_ints.py\n'}
+[8.822238] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/python3.12/site-packages/tut_interfaces/srv/_add_three_ints_s.c\n'}
+[8.831310] (-) TimerEvent: {}
+[8.832314] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/python3.12/site-packages/tut_interfaces/tut_interfaces_s__rosidl_typesupport_c.so\n'}
+[8.845289] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/python3.12/site-packages/tut_interfaces/tut_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[8.856367] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/python3.12/site-packages/tut_interfaces/tut_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[8.866891] (tut_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/python3.12/site-packages/tut_interfaces/tut_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[8.867412] (tut_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/python3.12/site-packages/tut_interfaces/tut_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[8.868023] (tut_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/python3.12/site-packages/tut_interfaces/tut_interfaces_s__rosidl_typesupport_c.so\n'}
+[8.868441] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/ament_index/resource_index/rust_packages/tut_interfaces\n'}
+[8.879898] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/rust/Cargo.toml\n'}
+[8.891068] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/rust/build.rs\n'}
+[8.901902] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/rust/src/lib.rs\n'}
+[8.912581] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/rust/src/msg.rs\n'}
+[8.922666] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/rust/src/msg/rmw.rs\n'}
+[8.931440] (-) TimerEvent: {}
+[8.932760] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/rust/src/srv.rs\n'}
+[8.945600] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/rust/src/srv/rmw.rs\n'}
+[8.965311] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/msg/Num.idl\n'}
+[8.976466] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/msg/Sphere.idl\n'}
+[8.987436] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/srv/AddThreeInts.idl\n'}
+[8.998236] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/msg/Num.msg\n'}
+[9.009028] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/msg/Sphere.msg\n'}
+[9.019640] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/srv/AddThreeInts.srv\n'}
+[9.029721] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/ament_index/resource_index/package_run_dependencies/tut_interfaces\n'}
+[9.031557] (-) TimerEvent: {}
+[9.040133] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/ament_index/resource_index/parent_prefix_path/tut_interfaces\n'}
+[9.051196] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/environment/ament_prefix_path.sh\n'}
+[9.070616] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/environment/ament_prefix_path.dsv\n'}
+[9.081924] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/environment/path.sh\n'}
+[9.092746] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/environment/path.dsv\n'}
+[9.103834] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/local_setup.bash\n'}
+[9.114812] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/local_setup.sh\n'}
+[9.125505] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/local_setup.zsh\n'}
+[9.131684] (-) TimerEvent: {}
+[9.144600] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/local_setup.dsv\n'}
+[9.161718] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/package.dsv\n'}
+[9.172433] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/ament_index/resource_index/packages/tut_interfaces\n'}
+[9.183306] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[9.193591] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.204466] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.215223] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.231836] (-) TimerEvent: {}
+[9.234352] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.244758] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.256277] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.266601] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[9.276519] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/cmake/tut_interfacesConfig.cmake\n'}
+[9.296161] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/cmake/tut_interfacesConfig-version.cmake\n'}
+[9.305913] (tut_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/package.xml\n'}
+[9.316234] (tut_interfaces) StdoutLine: {'line': b'-- Installing: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/libtut_interfaces__rosidl_generator_c.so\n'}
+[9.317258] (tut_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/libtut_interfaces__rosidl_generator_c.so" to ""\n'}
+[9.317649] (tut_interfaces) StdoutLine: {'line': b'-- Installing: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/libtut_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[9.318507] (tut_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/libtut_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.318887] (tut_interfaces) StdoutLine: {'line': b'-- Installing: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/libtut_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.320110] (tut_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/libtut_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[9.320501] (tut_interfaces) StdoutLine: {'line': b'-- Installing: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/libtut_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[9.321264] (tut_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/libtut_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.321623] (tut_interfaces) StdoutLine: {'line': b'-- Installing: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/libtut_interfaces__rosidl_typesupport_c.so\n'}
+[9.322429] (tut_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/libtut_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[9.322826] (tut_interfaces) StdoutLine: {'line': b'-- Installing: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/libtut_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[9.323933] (tut_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/libtut_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.324318] (tut_interfaces) StdoutLine: {'line': b'-- Installing: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/libtut_interfaces__rosidl_typesupport_cpp.so\n'}
+[9.325136] (tut_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/libtut_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[9.331973] (-) TimerEvent: {}
+[9.371506] (tut_interfaces) StdoutLine: {'line': b"Listing '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/python3.12/site-packages/tut_interfaces'...\n"}
+[9.371883] (tut_interfaces) StdoutLine: {'line': b"Compiling '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/python3.12/site-packages/tut_interfaces/__init__.py'...\n"}
+[9.372089] (tut_interfaces) StdoutLine: {'line': b"Listing '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/python3.12/site-packages/tut_interfaces/msg'...\n"}
+[9.372270] (tut_interfaces) StdoutLine: {'line': b"Compiling '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/python3.12/site-packages/tut_interfaces/msg/__init__.py'...\n"}
+[9.372451] (tut_interfaces) StdoutLine: {'line': b"Compiling '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/python3.12/site-packages/tut_interfaces/msg/_num.py'...\n"}
+[9.372619] (tut_interfaces) StdoutLine: {'line': b"Compiling '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/python3.12/site-packages/tut_interfaces/msg/_sphere.py'...\n"}
+[9.372794] (tut_interfaces) StdoutLine: {'line': b"Listing '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/python3.12/site-packages/tut_interfaces/srv'...\n"}
+[9.373018] (tut_interfaces) StdoutLine: {'line': b"Compiling '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/python3.12/site-packages/tut_interfaces/srv/__init__.py'...\n"}
+[9.373223] (tut_interfaces) StdoutLine: {'line': b"Compiling '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/python3.12/site-packages/tut_interfaces/srv/_add_three_ints.py'...\n"}
+[9.378349] (tut_interfaces) StdoutLine: {'line': b'-- Installing: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/libtut_interfaces__rosidl_generator_py.so\n'}
+[9.379357] (tut_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/lib/libtut_interfaces__rosidl_generator_py.so" to ""\n'}
+[9.379666] (tut_interfaces) StdoutLine: {'line': b'-- Installing: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/cmake/export_tut_interfaces__rosidl_generator_cExport.cmake\n'}
+[9.380010] (tut_interfaces) StdoutLine: {'line': b'-- Installing: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/cmake/export_tut_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.380539] (tut_interfaces) StdoutLine: {'line': b'-- Installing: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/cmake/export_tut_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[9.381058] (tut_interfaces) StdoutLine: {'line': b'-- Installing: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/cmake/export_tut_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[9.381528] (tut_interfaces) StdoutLine: {'line': b'-- Installing: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/cmake/export_tut_interfaces__rosidl_generator_cppExport.cmake\n'}
+[9.382075] (tut_interfaces) StdoutLine: {'line': b'-- Installing: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/cmake/export_tut_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[9.382532] (tut_interfaces) StdoutLine: {'line': b'-- Installing: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/cmake/export_tut_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[9.383035] (tut_interfaces) StdoutLine: {'line': b'-- Installing: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/cmake/tut_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.383544] (tut_interfaces) StdoutLine: {'line': b'-- Installing: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/cmake/tut_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.384096] (tut_interfaces) StdoutLine: {'line': b'-- Installing: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/cmake/tut_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[9.384565] (tut_interfaces) StdoutLine: {'line': b'-- Installing: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/cmake/tut_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.385045] (tut_interfaces) StdoutLine: {'line': b'-- Installing: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/cmake/tut_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.385451] (tut_interfaces) StdoutLine: {'line': b'-- Installing: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/cmake/tut_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.385886] (tut_interfaces) StdoutLine: {'line': b'-- Installing: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/cmake/tut_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[9.386390] (tut_interfaces) StdoutLine: {'line': b'-- Installing: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/cmake/tut_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.386883] (tut_interfaces) StdoutLine: {'line': b'-- Installing: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/cmake/export_tut_interfaces__rosidl_generator_pyExport.cmake\n'}
+[9.387366] (tut_interfaces) StdoutLine: {'line': b'-- Installing: /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/tut_interfaces/share/tut_interfaces/cmake/export_tut_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[9.394138] (tut_interfaces) CommandEnded: {'returncode': 0}
+[9.432252] (-) TimerEvent: {}
+[9.445261] (tut_interfaces) JobEnded: {'identifier': 'tut_interfaces', 'rc': 0}
+[9.446458] (-) EventReactorShutdown: {}

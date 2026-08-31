@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/pub_sub/pub_sub.egg-info/PKG-INFO
+writing dependency_links to ../../build/pub_sub/pub_sub.egg-info/dependency_links.txt
+writing entry points to ../../build/pub_sub/pub_sub.egg-info/entry_points.txt
+writing requirements to ../../build/pub_sub/pub_sub.egg-info/requires.txt
+writing top-level names to ../../build/pub_sub/pub_sub.egg-info/top_level.txt
+reading manifest file '../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+running build
+running build_py
+copying pub_sub/subscriber_member_function.py -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/build/lib/pub_sub
+running install
+running install_lib
+copying /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/build/lib/pub_sub/subscriber_member_function.py -> /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/python3.12/site-packages/pub_sub
+byte-compiling /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/python3.12/site-packages/pub_sub/subscriber_member_function.py to subscriber_member_function.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/python3.12/site-packages/pub_sub-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/pub_sub/pub_sub.egg-info to /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/python3.12/site-packages/pub_sub-0.0.0-py3.12.egg-info
+running install_scripts
+Installing listener script to /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/pub_sub
+Installing talker script to /home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/install/pub_sub/lib/pub_sub
+writing list of installed files to '/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/build/pub_sub/install.log'

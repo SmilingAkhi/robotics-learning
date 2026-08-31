@@ -1,0 +1,8 @@
+{
+  "package_name": "tut_interfaces",
+  "non_idl_tuples": [
+    "/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/src/tut_interfaces:msg/Num.msg",
+    "/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/src/tut_interfaces:msg/Sphere.msg",
+    "/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/src/tut_interfaces:srv/AddThreeInts.srv"
+  ]
+}

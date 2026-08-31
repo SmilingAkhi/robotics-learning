@@ -1,1 +1,0 @@
-/home/koji/robotics/robotics-learning/beginner_client_libs/my_workspace/src/pub_sub/setup.py

@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000662] (-) JobUnselected: {'identifier': 'my_first_pkg'}
+[0.000884] (-) JobUnselected: {'identifier': 'pub_sub'}
+[0.000961] (-) JobUnselected: {'identifier': 'py_srv'}
+[0.000999] (-) JobUnselected: {'identifier': 'tut_interfaces'}
+[0.001240] (-) EventReactorShutdown: {}
