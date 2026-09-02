@@ -1,0 +1,1 @@
+/home/koji/robotics/robotics-learning/project_ws/build/irrigation_interfaces/rosidl_generator_c/irrigation_interfaces/msg/rosidl_generator_c__visibility_control.h

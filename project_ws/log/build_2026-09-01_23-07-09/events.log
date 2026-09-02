@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000558] (-) JobUnselected: {'identifier': 'addition_qlty_checker_pkg'}
+[0.000642] (-) JobUnselected: {'identifier': 'irrigation_interfaces'}
+[0.000686] (-) JobUnselected: {'identifier': 'smart_irrigation_system'}
+[0.000910] (-) JobUnselected: {'identifier': 'temperature_monitor_pkg'}
+[0.001249] (-) EventReactorShutdown: {}

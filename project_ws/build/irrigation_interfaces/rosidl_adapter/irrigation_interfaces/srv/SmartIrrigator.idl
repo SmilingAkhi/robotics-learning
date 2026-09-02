@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from irrigation_interfaces/srv/SmartIrrigator.srv
+// generated code does not contain a copyright notice
+
+
+module irrigation_interfaces {
+  module srv {
+    struct SmartIrrigator_Request {
+      float temp;
+
+      float mc;
+    };
+    struct SmartIrrigator_Response {
+      boolean irrigate;
+
+      string reason;
+    };
+  };
+};

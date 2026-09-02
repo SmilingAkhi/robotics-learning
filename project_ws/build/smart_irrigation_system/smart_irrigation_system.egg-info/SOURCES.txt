@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+resource/smart_irrigation_system
+smart_irrigation_system/__init__.py
+smart_irrigation_system/irrigator_client.py
+smart_irrigation_system/irrigator_server.py
+smart_irrigation_system.egg-info/PKG-INFO
+smart_irrigation_system.egg-info/SOURCES.txt
+smart_irrigation_system.egg-info/dependency_links.txt
+smart_irrigation_system.egg-info/entry_points.txt
+smart_irrigation_system.egg-info/requires.txt
+smart_irrigation_system.egg-info/top_level.txt
+smart_irrigation_system.egg-info/zip-safe

@@ -1,0 +1,6 @@
+float32 temp
+float32 mc
+
+---
+bool irrigate 
+string reason

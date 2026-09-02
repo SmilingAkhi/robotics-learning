@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "irrigation_interfaces__py",
+		"source" : "/home/koji/robotics/robotics-learning/project_ws/build/irrigation_interfaces/irrigation_interfaces__py"
+	}
+}

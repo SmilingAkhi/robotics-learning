@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "irrigation_interfaces/srv/SmartIrrigator_Response",
+      "fields": [
+        {
+          "name": "irrigate",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "reason",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "irrigation_interfaces/srv/SmartIrrigator_Response",
+      "hash_string": "RIHS01_da9037f82008370a720012b8d84d120e45c6dad872ad2d621bd4db337bce5262"
+    }
+  ]
+}

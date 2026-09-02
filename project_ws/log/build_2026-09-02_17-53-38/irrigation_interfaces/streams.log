@@ -1,0 +1,55 @@
+[0.013s] Invoking command in '/home/koji/robotics/robotics-learning/project_ws/build/irrigation_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/koji/robotics/robotics-learning/project_ws/src/irrigation_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces
+[0.045s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.291s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.309s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.313s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.373s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.419s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.711s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[0.711s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.712s]   irrigation_interfaces --arguments-file
+[0.712s]   /home/koji/robotics/robotics-learning/project_ws/build/irrigation_interfaces/rosidl_adapter__arguments__irrigation_interfaces.json
+[0.712s]   --output-dir
+[0.712s]   /home/koji/robotics/robotics-learning/project_ws/build/irrigation_interfaces/rosidl_adapter/irrigation_interfaces
+[0.712s]   --output-file
+[0.712s]   /home/koji/robotics/robotics-learning/project_ws/build/irrigation_interfaces/rosidl_adapter/irrigation_interfaces.idls)
+[0.713s]   returned error code 1:
+[0.713s] 
+[0.713s]   Traceback (most recent call last):
+[0.713s] 
+[0.713s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[0.713s]     File "<frozen runpy>", line 88, in _run_code
+[0.713s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.713s]       sys.exit(main())
+[0.714s]                ^^^^^^
+[0.714s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.714s]       abs_idl_file = convert_to_idl(
+[0.714s]                      ^^^^^^^^^^^^^^^
+[0.714s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[0.714s]       return convert_srv_to_idl(
+[0.714s]              ^^^^^^^^^^^^^^^^^^^
+[0.715s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[0.715s]       srv = parse_service_string(package_name, input_file.stem, content)
+[0.715s]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0.715s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 860, in parse_service_string
+[0.715s]       request_message = parse_message_string(
+[0.715s]                         ^^^^^^^^^^^^^^^^^^^^^
+[0.715s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 545, in parse_message_string
+[0.716s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[0.716s]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0.716s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 389, in __init__
+[0.716s]       self.base_type = BaseType(
+[0.716s]                        ^^^^^^^^^
+[0.716s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 206, in __init__
+[0.716s]       raise InvalidResourceName(
+[0.717s] 
+[0.717s]   rosidl_adapter.parser.InvalidResourceName: 'smartIrrigator_Request' is an
+[0.717s]   invalid message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.717s] 
+[0.717s] Call Stack (most recent call first):
+[0.717s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[0.717s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[0.718s] 
+[0.718s] [0m
+[0.718s] -- Configuring incomplete, errors occurred!
+[0.726s] Invoked command in '/home/koji/robotics/robotics-learning/project_ws/build/irrigation_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/koji/robotics/robotics-learning/project_ws/src/irrigation_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces

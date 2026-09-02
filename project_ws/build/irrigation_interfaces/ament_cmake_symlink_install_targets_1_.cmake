@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/koji/robotics/robotics-learning/project_ws/build/irrigation_interfaces/rosidl_generator_py/irrigation_interfaces/irrigation_interfaces_s__rosidl_typesupport_introspection_c.so" "TARGETS" "irrigation_interfaces_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/irrigation_interfaces")

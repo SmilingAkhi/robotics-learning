@@ -1,0 +1,6 @@
+{
+  "package_name": "irrigation_interfaces",
+  "non_idl_tuples": [
+    "/home/koji/robotics/robotics-learning/project_ws/src/irrigation_interfaces:srv/SmartIrrigator.srv"
+  ]
+}

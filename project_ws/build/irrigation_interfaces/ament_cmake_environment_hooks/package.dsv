@@ -1,0 +1,4 @@
+source;share/irrigation_interfaces/local_setup.bash
+source;share/irrigation_interfaces/local_setup.dsv
+source;share/irrigation_interfaces/local_setup.sh
+source;share/irrigation_interfaces/local_setup.zsh

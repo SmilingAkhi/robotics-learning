@@ -1,0 +1,3 @@
+[console_scripts]
+client = smart_irrigation_system.irrigator_client:main
+server = smart_irrigation_system.irrigator_server:main

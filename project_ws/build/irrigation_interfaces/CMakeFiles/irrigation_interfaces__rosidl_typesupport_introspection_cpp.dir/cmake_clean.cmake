@@ -1,0 +1,13 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/irrigation_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/irrigation_interfaces/srv/detail/smart_irrigator__type_support.cpp.o"
+  "CMakeFiles/irrigation_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/irrigation_interfaces/srv/detail/smart_irrigator__type_support.cpp.o.d"
+  "libirrigation_interfaces__rosidl_typesupport_introspection_cpp.pdb"
+  "libirrigation_interfaces__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/irrigation_interfaces/srv/detail/smart_irrigator__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/irrigation_interfaces/srv/detail/smart_irrigator__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/irrigation_interfaces__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
