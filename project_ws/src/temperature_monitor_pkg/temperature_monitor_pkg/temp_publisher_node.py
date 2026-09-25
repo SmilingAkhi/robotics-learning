@@ -9,7 +9,7 @@ class temperaturePublisher(Node):
         self.publisher1 = self.create_publisher(String, "/temperature", 10 )
         timer = 2 
         self.timer = self.create_timer(timer, self.timer_callback)
-        self.counter = 25
+        self.counter = 20
 
     def timer_callback(self):
         msg = String()
