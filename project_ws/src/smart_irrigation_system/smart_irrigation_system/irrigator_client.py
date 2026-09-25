@@ -9,7 +9,7 @@ from irrigation_interfaces.srv import SmartIrrigator
 class irrigatorClientClass(Node):
 
     def __init__(self):
-        #`inherit ros2 node properties`
+        #inherit ros2 node properties
         super().__init__('irrigatorClientNode')
 
         #create client 
