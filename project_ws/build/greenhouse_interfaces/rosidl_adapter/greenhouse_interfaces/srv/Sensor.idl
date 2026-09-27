@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from greenhouse_interfaces/srv/Sensor.srv
+// generated code does not contain a copyright notice
+
+
+module greenhouse_interfaces {
+  module srv {
+    struct Sensor_Request {
+      float temperature;
+
+      float humidity;
+    };
+    struct Sensor_Response {
+      boolean fan_on;
+
+      boolean irrigation_on;
+
+      string recommendation;
+    };
+  };
+};

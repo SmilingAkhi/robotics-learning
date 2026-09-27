@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/koji/robotics/robotics-learning/project_ws/build/greenhouse_interfaces/rosidl_generator_py/greenhouse_interfaces/greenhouse_interfaces_s__rosidl_typesupport_fastrtps_c.so" "TARGETS" "greenhouse_interfaces_s__rosidl_typesupport_fastrtps_c" "DESTINATION" "lib/python3.12/site-packages/greenhouse_interfaces")

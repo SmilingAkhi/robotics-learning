@@ -1,0 +1,47 @@
+[0.015s] Invoking command in '/home/koji/robotics/robotics-learning/project_ws/build/greenhouse_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/koji/robotics/robotics-learning/project_ws/install/temperature_monitor_pkg:/home/koji/robotics/robotics-learning/project_ws/install/smart_irrigation_system:/home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller:/home/koji/robotics/robotics-learning/project_ws/install/addition_qlty_checker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/koji/robotics/robotics-learning/project_ws/build/greenhouse_interfaces -- -j12 -l12
+[0.048s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.287s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.293s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.296s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.329s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.358s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.655s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[0.655s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.655s]   greenhouse_interfaces --arguments-file
+[0.656s]   /home/koji/robotics/robotics-learning/project_ws/build/greenhouse_interfaces/rosidl_adapter__arguments__greenhouse_interfaces.json
+[0.656s]   --output-dir
+[0.656s]   /home/koji/robotics/robotics-learning/project_ws/build/greenhouse_interfaces/rosidl_adapter/greenhouse_interfaces
+[0.656s]   --output-file
+[0.656s]   /home/koji/robotics/robotics-learning/project_ws/build/greenhouse_interfaces/rosidl_adapter/greenhouse_interfaces.idls)
+[0.656s]   returned error code 1:
+[0.657s] 
+[0.657s]   Traceback (most recent call last):
+[0.657s] 
+[0.657s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[0.657s]     File "<frozen runpy>", line 88, in _run_code
+[0.657s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.657s]       sys.exit(main())
+[0.658s]                ^^^^^^
+[0.658s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.658s]       abs_idl_file = convert_to_idl(
+[0.658s]                      ^^^^^^^^^^^^^^^
+[0.658s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[0.658s]       return convert_srv_to_idl(
+[0.658s]              ^^^^^^^^^^^^^^^^^^^
+[0.659s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[0.659s]       srv = parse_service_string(package_name, input_file.stem, content)
+[0.659s]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0.659s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 851, in parse_service_string
+[0.659s]       raise InvalidServiceSpecification(
+[0.659s] 
+[0.660s]   rosidl_adapter.parser.InvalidServiceSpecification: Could not find separator
+[0.660s]   '---' between request and response
+[0.660s] 
+[0.660s] Call Stack (most recent call first):
+[0.660s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[0.661s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[0.661s] 
+[0.661s] [0m
+[0.661s] -- Configuring incomplete, errors occurred!
+[0.668s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.672s] Invoked command in '/home/koji/robotics/robotics-learning/project_ws/build/greenhouse_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/koji/robotics/robotics-learning/project_ws/install/temperature_monitor_pkg:/home/koji/robotics/robotics-learning/project_ws/install/smart_irrigation_system:/home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller:/home/koji/robotics/robotics-learning/project_ws/install/addition_qlty_checker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/koji/robotics/robotics-learning/project_ws/build/greenhouse_interfaces -- -j12 -l12

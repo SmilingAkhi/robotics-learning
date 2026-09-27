@@ -1,0 +1,18 @@
+[2.274s] Invoking command in '/home/koji/robotics/robotics-learning/project_ws/build/smart_irrigation_system': AMENT_PREFIX_PATH=/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/koji/robotics/robotics-learning/project_ws/build/smart_irrigation_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koji/robotics/robotics-learning/project_ws/install/smart_irrigation_system/lib/python3.12/site-packages:/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/koji/robotics/robotics-learning/project_ws/build/smart_irrigation_system/build --no-deps symlink_data
+[2.744s] running develop
+[3.021s] running egg_info
+[3.047s] writing smart_irrigation_system.egg-info/PKG-INFO
+[3.048s] writing dependency_links to smart_irrigation_system.egg-info/dependency_links.txt
+[3.048s] writing entry points to smart_irrigation_system.egg-info/entry_points.txt
+[3.048s] writing requirements to smart_irrigation_system.egg-info/requires.txt
+[3.049s] writing top-level names to smart_irrigation_system.egg-info/top_level.txt
+[3.102s] reading manifest file 'smart_irrigation_system.egg-info/SOURCES.txt'
+[3.103s] writing manifest file 'smart_irrigation_system.egg-info/SOURCES.txt'
+[3.130s] running build_ext
+[3.131s] Creating /home/koji/robotics/robotics-learning/project_ws/install/smart_irrigation_system/lib/python3.12/site-packages/smart-irrigation-system.egg-link (link to .)
+[3.132s] Installing client script to /home/koji/robotics/robotics-learning/project_ws/install/smart_irrigation_system/lib/smart_irrigation_system
+[3.132s] Installing server script to /home/koji/robotics/robotics-learning/project_ws/install/smart_irrigation_system/lib/smart_irrigation_system
+[3.132s] 
+[3.133s] Installed /home/koji/robotics/robotics-learning/project_ws/build/smart_irrigation_system
+[3.133s] running symlink_data
+[3.186s] Invoked command in '/home/koji/robotics/robotics-learning/project_ws/build/smart_irrigation_system' returned '0': AMENT_PREFIX_PATH=/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/koji/robotics/robotics-learning/project_ws/build/smart_irrigation_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koji/robotics/robotics-learning/project_ws/install/smart_irrigation_system/lib/python3.12/site-packages:/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/koji/robotics/robotics-learning/project_ws/build/smart_irrigation_system/build --no-deps symlink_data

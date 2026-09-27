@@ -1,0 +1,18 @@
+[0.014s] Invoking command in '/home/koji/robotics/robotics-learning/project_ws/build/greenhouse_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/koji/robotics/robotics-learning/project_ws/install/temperature_monitor_pkg:/home/koji/robotics/robotics-learning/project_ws/install/smart_irrigation_system:/home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller:/home/koji/robotics/robotics-learning/project_ws/install/addition_qlty_checker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/koji/robotics/robotics-learning/project_ws/build/greenhouse_interfaces -- -j12 -l12
+[0.050s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.299s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.306s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.309s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.343s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.372s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.374s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[0.374s]   rosidl_generate_interfaces() the passed file 'srv/sensor.srv' doesn't exist
+[0.375s]   relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.375s]   '/home/koji/robotics/robotics-learning/project_ws/src/greenhouse_interfaces'
+[0.375s] Call Stack (most recent call first):
+[0.375s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[0.375s] 
+[0.375s] [0m
+[0.375s] -- Configuring incomplete, errors occurred!
+[0.381s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.384s] Invoked command in '/home/koji/robotics/robotics-learning/project_ws/build/greenhouse_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/koji/robotics/robotics-learning/project_ws/install/temperature_monitor_pkg:/home/koji/robotics/robotics-learning/project_ws/install/smart_irrigation_system:/home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller:/home/koji/robotics/robotics-learning/project_ws/install/addition_qlty_checker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/koji/robotics/robotics-learning/project_ws/build/greenhouse_interfaces -- -j12 -l12

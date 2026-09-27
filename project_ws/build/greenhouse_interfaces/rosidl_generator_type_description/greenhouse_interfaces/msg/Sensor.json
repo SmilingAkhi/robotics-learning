@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "greenhouse_interfaces/msg/Sensor",
+      "fields": [
+        {
+          "name": "temperature",
+          "type": {
+            "type_id": 8,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "humidity",
+          "type": {
+            "type_id": 8,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "greenhouse_interfaces/msg/Sensor",
+      "hash_string": "RIHS01_0398f7edcfd58e22e625d84ed76253222149b0cc7dee066994ae68d78d3e46b8"
+    }
+  ]
+}

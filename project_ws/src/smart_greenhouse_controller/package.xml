@@ -3,11 +3,12 @@
 <package format="3">
   <name>smart_greenhouse_controller</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Smart Greenhouse Controller</description>
   <maintainer email="bhabdulrahaman@gmail.com">koji</maintainer>
   <license>Apache-2.0</license>
 
   <depend>rclpy</depend>
+  <exec_depend>greenhouse_interfaces</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

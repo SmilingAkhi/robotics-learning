@@ -1,0 +1,19 @@
+[1.725s] Invoking command in '/home/koji/robotics/robotics-learning/project_ws/build/temperature_monitor_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/koji/robotics/robotics-learning/project_ws/build/temperature_monitor_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koji/robotics/robotics-learning/project_ws/install/temperature_monitor_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/koji/robotics/robotics-learning/project_ws/build/temperature_monitor_pkg/build --no-deps symlink_data
+[2.182s] running develop
+[2.434s] running egg_info
+[2.456s] writing temperature_monitor_pkg.egg-info/PKG-INFO
+[2.456s] writing dependency_links to temperature_monitor_pkg.egg-info/dependency_links.txt
+[2.456s] writing entry points to temperature_monitor_pkg.egg-info/entry_points.txt
+[2.456s] writing requirements to temperature_monitor_pkg.egg-info/requires.txt
+[2.457s] writing top-level names to temperature_monitor_pkg.egg-info/top_level.txt
+[2.501s] reading manifest file 'temperature_monitor_pkg.egg-info/SOURCES.txt'
+[2.502s] writing manifest file 'temperature_monitor_pkg.egg-info/SOURCES.txt'
+[2.526s] running build_ext
+[2.526s] Creating /home/koji/robotics/robotics-learning/project_ws/install/temperature_monitor_pkg/lib/python3.12/site-packages/temperature-monitor-pkg.egg-link (link to .)
+[2.526s] Installing listener script to /home/koji/robotics/robotics-learning/project_ws/install/temperature_monitor_pkg/lib/temperature_monitor_pkg
+[2.527s] Installing talker script to /home/koji/robotics/robotics-learning/project_ws/install/temperature_monitor_pkg/lib/temperature_monitor_pkg
+[2.527s] 
+[2.527s] Installed /home/koji/robotics/robotics-learning/project_ws/build/temperature_monitor_pkg
+[2.527s] running symlink_data
+[2.528s] symbolically linking /home/koji/robotics/robotics-learning/project_ws/build/temperature_monitor_pkg/launch/monitor_launch_file.py -> /home/koji/robotics/robotics-learning/project_ws/install/temperature_monitor_pkg/share/temperature_monitor_pkg/launch
+[2.577s] Invoked command in '/home/koji/robotics/robotics-learning/project_ws/build/temperature_monitor_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/koji/robotics/robotics-learning/project_ws/build/temperature_monitor_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koji/robotics/robotics-learning/project_ws/install/temperature_monitor_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/koji/robotics/robotics-learning/project_ws/build/temperature_monitor_pkg/build --no-deps symlink_data

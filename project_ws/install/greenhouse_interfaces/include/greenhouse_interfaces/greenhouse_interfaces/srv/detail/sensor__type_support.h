@@ -1,0 +1,1 @@
+/home/koji/robotics/robotics-learning/project_ws/build/greenhouse_interfaces/rosidl_generator_c/greenhouse_interfaces/srv/detail/sensor__type_support.h

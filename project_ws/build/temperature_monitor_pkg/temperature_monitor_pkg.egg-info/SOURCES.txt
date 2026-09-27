@@ -1,6 +1,7 @@
 package.xml
 setup.cfg
 setup.py
+launch/monitor_launch_file.py
 resource/temperature_monitor_pkg
 temperature_monitor_pkg/__init__.py
 temperature_monitor_pkg/temp_publisher_node.py

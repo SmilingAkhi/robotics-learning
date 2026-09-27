@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/greenhouse_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/greenhouse_interfaces/msg/detail/sensor__type_support.c.o"
+  "CMakeFiles/greenhouse_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/greenhouse_interfaces/msg/detail/sensor__type_support.c.o.d"
+  "CMakeFiles/greenhouse_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/greenhouse_interfaces/srv/detail/sensor__type_support.c.o"
+  "CMakeFiles/greenhouse_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/greenhouse_interfaces/srv/detail/sensor__type_support.c.o.d"
+  "libgreenhouse_interfaces__rosidl_typesupport_introspection_c.pdb"
+  "libgreenhouse_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/greenhouse_interfaces/msg/detail/sensor__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/greenhouse_interfaces/msg/detail/sensor__type_support.c"
+  "rosidl_typesupport_introspection_c/greenhouse_interfaces/srv/detail/sensor__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/greenhouse_interfaces/srv/detail/sensor__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/greenhouse_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

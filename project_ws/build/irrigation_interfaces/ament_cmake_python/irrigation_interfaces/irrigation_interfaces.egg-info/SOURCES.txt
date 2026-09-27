@@ -4,3 +4,5 @@ irrigation_interfaces.egg-info/PKG-INFO
 irrigation_interfaces.egg-info/SOURCES.txt
 irrigation_interfaces.egg-info/dependency_links.txt
 irrigation_interfaces.egg-info/top_level.txt
+irrigation_interfaces/srv/__init__.py
+irrigation_interfaces/srv/_smart_irrigator.py

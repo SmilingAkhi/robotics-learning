@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "greenhouse_interfaces__rs",
+		"source" : "/home/koji/robotics/robotics-learning/project_ws/build/greenhouse_interfaces/greenhouse_interfaces__rs"
+	}
+}

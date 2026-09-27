@@ -1,1 +1,1 @@
-prepend-non-duplicate;PYTHONPATH;/home/koji/project_ws/build/temperature_monitor_pkg
+prepend-non-duplicate;PYTHONPATH;/home/koji/robotics/robotics-learning/project_ws/build/temperature_monitor_pkg

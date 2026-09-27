@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "irrigation_interfaces/srv/detail/smart_irrigator__type_support.h"
+#include "irrigation_interfaces/srv/detail/smart_irrigator__functions.h"
 #include "irrigation_interfaces/srv/detail/smart_irrigator__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "irrigation_interfaces/srv/detail/smart_irrigator__functions.h"
+#include "irrigation_interfaces/srv/detail/smart_irrigator__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

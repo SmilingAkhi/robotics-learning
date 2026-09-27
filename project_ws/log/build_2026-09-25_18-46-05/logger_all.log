@@ -1,0 +1,442 @@
+[0.167s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.167s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7825d4976ba0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7825d49768a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7825d49768a0>>, mixin_verb=('build',))
+[0.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.225s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/koji/robotics/robotics-learning/project_ws'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/addition_qlty_checker_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/addition_qlty_checker_pkg) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/addition_qlty_checker_pkg) by extension 'ignore_ament_install'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/addition_qlty_checker_pkg) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/addition_qlty_checker_pkg) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/addition_qlty_checker_pkg) by extensions ['colcon_meta']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/addition_qlty_checker_pkg) by extension 'colcon_meta'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/addition_qlty_checker_pkg) by extensions ['ros']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/addition_qlty_checker_pkg) by extension 'ros'
+[0.276s] DEBUG:colcon.colcon_core.package_identification:Package 'src/addition_qlty_checker_pkg' with type 'ros.ament_python' and name 'addition_qlty_checker_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/greenhouse_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/greenhouse_interfaces) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/greenhouse_interfaces) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/greenhouse_interfaces) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/greenhouse_interfaces) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/greenhouse_interfaces) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/greenhouse_interfaces) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/greenhouse_interfaces) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/greenhouse_interfaces) by extension 'ros'
+[0.277s] DEBUG:colcon.colcon_core.package_identification:Package 'src/greenhouse_interfaces' with type 'ros.ament_cmake' and name 'greenhouse_interfaces'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/irrigation_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/irrigation_interfaces) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/irrigation_interfaces) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/irrigation_interfaces) by extensions ['colcon_pkg']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/irrigation_interfaces) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/irrigation_interfaces) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/irrigation_interfaces) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/irrigation_interfaces) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/irrigation_interfaces) by extension 'ros'
+[0.278s] DEBUG:colcon.colcon_core.package_identification:Package 'src/irrigation_interfaces' with type 'ros.ament_cmake' and name 'irrigation_interfaces'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_greenhouse_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_greenhouse_controller) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_greenhouse_controller) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_greenhouse_controller) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_greenhouse_controller) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_greenhouse_controller) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_greenhouse_controller) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_greenhouse_controller) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_greenhouse_controller) by extension 'ros'
+[0.280s] DEBUG:colcon.colcon_core.package_identification:Package 'src/smart_greenhouse_controller' with type 'ros.ament_python' and name 'smart_greenhouse_controller'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_irrigation_system) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_irrigation_system) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_irrigation_system) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_irrigation_system) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_irrigation_system) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_irrigation_system) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_irrigation_system) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_irrigation_system) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_irrigation_system) by extension 'ros'
+[0.281s] DEBUG:colcon.colcon_core.package_identification:Package 'src/smart_irrigation_system' with type 'ros.ament_python' and name 'smart_irrigation_system'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/temperature_monitor_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/temperature_monitor_pkg) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/temperature_monitor_pkg) by extension 'ignore_ament_install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/temperature_monitor_pkg) by extensions ['colcon_pkg']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/temperature_monitor_pkg) by extension 'colcon_pkg'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/temperature_monitor_pkg) by extensions ['colcon_meta']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/temperature_monitor_pkg) by extension 'colcon_meta'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/temperature_monitor_pkg) by extensions ['ros']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/temperature_monitor_pkg) by extension 'ros'
+[0.282s] DEBUG:colcon.colcon_core.package_identification:Package 'src/temperature_monitor_pkg' with type 'ros.ament_python' and name 'temperature_monitor_pkg'
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.314s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 288 installed packages in /opt/ros/jazzy
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'addition_qlty_checker_pkg' build argument 'cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'addition_qlty_checker_pkg' build argument 'cmake_target' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'addition_qlty_checker_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'addition_qlty_checker_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'addition_qlty_checker_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'addition_qlty_checker_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'addition_qlty_checker_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'addition_qlty_checker_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'addition_qlty_checker_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.378s] DEBUG:colcon.colcon_core.verb:Building package 'addition_qlty_checker_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/koji/robotics/robotics-learning/project_ws/build/addition_qlty_checker_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/koji/robotics/robotics-learning/project_ws/install/addition_qlty_checker_pkg', 'merge_install': False, 'path': '/home/koji/robotics/robotics-learning/project_ws/src/addition_qlty_checker_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'greenhouse_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'greenhouse_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'greenhouse_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'greenhouse_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'greenhouse_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'greenhouse_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'greenhouse_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'greenhouse_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'greenhouse_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.379s] DEBUG:colcon.colcon_core.verb:Building package 'greenhouse_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/koji/robotics/robotics-learning/project_ws/build/greenhouse_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/koji/robotics/robotics-learning/project_ws/install/greenhouse_interfaces', 'merge_install': False, 'path': '/home/koji/robotics/robotics-learning/project_ws/src/greenhouse_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'irrigation_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'irrigation_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'irrigation_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'irrigation_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'irrigation_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'irrigation_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'irrigation_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'irrigation_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'irrigation_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.380s] DEBUG:colcon.colcon_core.verb:Building package 'irrigation_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/koji/robotics/robotics-learning/project_ws/build/irrigation_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces', 'merge_install': False, 'path': '/home/koji/robotics/robotics-learning/project_ws/src/irrigation_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'temperature_monitor_pkg' build argument 'cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'temperature_monitor_pkg' build argument 'cmake_target' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'temperature_monitor_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'temperature_monitor_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'temperature_monitor_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'temperature_monitor_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'temperature_monitor_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'temperature_monitor_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'temperature_monitor_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.380s] DEBUG:colcon.colcon_core.verb:Building package 'temperature_monitor_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/koji/robotics/robotics-learning/project_ws/build/temperature_monitor_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/koji/robotics/robotics-learning/project_ws/install/temperature_monitor_pkg', 'merge_install': False, 'path': '/home/koji/robotics/robotics-learning/project_ws/src/temperature_monitor_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'smart_greenhouse_controller' build argument 'cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'smart_greenhouse_controller' build argument 'cmake_target' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'smart_greenhouse_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'smart_greenhouse_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'smart_greenhouse_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'smart_greenhouse_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'smart_greenhouse_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'smart_greenhouse_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'smart_greenhouse_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.381s] DEBUG:colcon.colcon_core.verb:Building package 'smart_greenhouse_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/koji/robotics/robotics-learning/project_ws/build/smart_greenhouse_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller', 'merge_install': False, 'path': '/home/koji/robotics/robotics-learning/project_ws/src/smart_greenhouse_controller', 'symlink_install': True, 'test_result_base': None}
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'smart_irrigation_system' build argument 'cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'smart_irrigation_system' build argument 'cmake_target' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'smart_irrigation_system' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'smart_irrigation_system' build argument 'cmake_clean_cache' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'smart_irrigation_system' build argument 'cmake_clean_first' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'smart_irrigation_system' build argument 'cmake_force_configure' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'smart_irrigation_system' build argument 'ament_cmake_args' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'smart_irrigation_system' build argument 'catkin_cmake_args' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'smart_irrigation_system' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.382s] DEBUG:colcon.colcon_core.verb:Building package 'smart_irrigation_system' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/koji/robotics/robotics-learning/project_ws/build/smart_irrigation_system', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/koji/robotics/robotics-learning/project_ws/install/smart_irrigation_system', 'merge_install': False, 'path': '/home/koji/robotics/robotics-learning/project_ws/src/smart_irrigation_system', 'symlink_install': True, 'test_result_base': None}
+[0.382s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.383s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.384s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/koji/robotics/robotics-learning/project_ws/src/greenhouse_interfaces' with build type 'ament_cmake'
+[0.384s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/koji/robotics/robotics-learning/project_ws/src/greenhouse_interfaces'
+[0.387s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.387s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.387s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.392s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/koji/robotics/robotics-learning/project_ws/src/irrigation_interfaces' with build type 'ament_cmake'
+[0.393s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/koji/robotics/robotics-learning/project_ws/src/irrigation_interfaces'
+[0.393s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.393s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.398s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/koji/robotics/robotics-learning/project_ws/src/addition_qlty_checker_pkg' with build type 'ament_python'
+[0.398s] Level 1:colcon.colcon_core.shell:create_environment_hook('addition_qlty_checker_pkg', 'ament_prefix_path')
+[0.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/install/addition_qlty_checker_pkg/share/addition_qlty_checker_pkg/hook/ament_prefix_path.ps1'
+[0.400s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/koji/robotics/robotics-learning/project_ws/install/addition_qlty_checker_pkg/share/addition_qlty_checker_pkg/hook/ament_prefix_path.dsv'
+[0.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/install/addition_qlty_checker_pkg/share/addition_qlty_checker_pkg/hook/ament_prefix_path.sh'
+[0.401s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.401s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.406s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/koji/robotics/robotics-learning/project_ws/src/temperature_monitor_pkg' with build type 'ament_python'
+[0.406s] Level 1:colcon.colcon_core.shell:create_environment_hook('temperature_monitor_pkg', 'ament_prefix_path')
+[0.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/install/temperature_monitor_pkg/share/temperature_monitor_pkg/hook/ament_prefix_path.ps1'
+[0.407s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/koji/robotics/robotics-learning/project_ws/install/temperature_monitor_pkg/share/temperature_monitor_pkg/hook/ament_prefix_path.dsv'
+[0.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/install/temperature_monitor_pkg/share/temperature_monitor_pkg/hook/ament_prefix_path.sh'
+[0.409s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.409s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/koji/robotics/robotics-learning/project_ws/build/greenhouse_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/koji/robotics/robotics-learning/project_ws/build/greenhouse_interfaces -- -j12 -l12
+[0.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/koji/robotics/robotics-learning/project_ws/build/irrigation_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/koji/robotics/robotics-learning/project_ws/build/irrigation_interfaces -- -j12 -l12
+[0.811s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/koji/robotics/robotics-learning/project_ws/src/addition_qlty_checker_pkg'
+[0.811s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.811s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/koji/robotics/robotics-learning/project_ws/build/greenhouse_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/koji/robotics/robotics-learning/project_ws/build/greenhouse_interfaces -- -j12 -l12
+[0.844s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/koji/robotics/robotics-learning/project_ws/build/greenhouse_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/koji/robotics/robotics-learning/project_ws/build/greenhouse_interfaces
+[1.184s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/koji/robotics/robotics-learning/project_ws/src/temperature_monitor_pkg'
+[1.185s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.185s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.200s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(greenhouse_interfaces)
+[1.201s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/koji/robotics/robotics-learning/project_ws/build/greenhouse_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/koji/robotics/robotics-learning/project_ws/build/greenhouse_interfaces
+[1.207s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/greenhouse_interfaces' for CMake module files
+[1.209s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/greenhouse_interfaces' for CMake config files
+[1.210s] Level 1:colcon.colcon_core.shell:create_environment_hook('greenhouse_interfaces', 'cmake_prefix_path')
+[1.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/install/greenhouse_interfaces/share/greenhouse_interfaces/hook/cmake_prefix_path.ps1'
+[1.212s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/koji/robotics/robotics-learning/project_ws/install/greenhouse_interfaces/share/greenhouse_interfaces/hook/cmake_prefix_path.dsv'
+[1.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/install/greenhouse_interfaces/share/greenhouse_interfaces/hook/cmake_prefix_path.sh'
+[1.214s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/greenhouse_interfaces/bin'
+[1.215s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/greenhouse_interfaces/lib/pkgconfig/greenhouse_interfaces.pc'
+[1.215s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/greenhouse_interfaces/lib/python3.12/site-packages'
+[1.216s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/greenhouse_interfaces/bin'
+[1.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/koji/robotics/robotics-learning/project_ws/install/greenhouse_interfaces/share/greenhouse_interfaces/package.ps1'
+[1.219s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/koji/robotics/robotics-learning/project_ws/install/greenhouse_interfaces/share/greenhouse_interfaces/package.dsv'
+[1.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/koji/robotics/robotics-learning/project_ws/install/greenhouse_interfaces/share/greenhouse_interfaces/package.sh'
+[1.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/koji/robotics/robotics-learning/project_ws/install/greenhouse_interfaces/share/greenhouse_interfaces/package.bash'
+[1.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/koji/robotics/robotics-learning/project_ws/install/greenhouse_interfaces/share/greenhouse_interfaces/package.zsh'
+[1.225s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/koji/robotics/robotics-learning/project_ws/install/greenhouse_interfaces/share/colcon-core/packages/greenhouse_interfaces)
+[1.227s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(greenhouse_interfaces)
+[1.227s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/greenhouse_interfaces' for CMake module files
+[1.228s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/greenhouse_interfaces' for CMake config files
+[1.229s] Level 1:colcon.colcon_core.shell:create_environment_hook('greenhouse_interfaces', 'cmake_prefix_path')
+[1.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/install/greenhouse_interfaces/share/greenhouse_interfaces/hook/cmake_prefix_path.ps1'
+[1.230s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/koji/robotics/robotics-learning/project_ws/install/greenhouse_interfaces/share/greenhouse_interfaces/hook/cmake_prefix_path.dsv'
+[1.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/install/greenhouse_interfaces/share/greenhouse_interfaces/hook/cmake_prefix_path.sh'
+[1.233s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/greenhouse_interfaces/bin'
+[1.233s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/greenhouse_interfaces/lib/pkgconfig/greenhouse_interfaces.pc'
+[1.233s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/greenhouse_interfaces/lib/python3.12/site-packages'
+[1.234s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/greenhouse_interfaces/bin'
+[1.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/koji/robotics/robotics-learning/project_ws/install/greenhouse_interfaces/share/greenhouse_interfaces/package.ps1'
+[1.236s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/koji/robotics/robotics-learning/project_ws/install/greenhouse_interfaces/share/greenhouse_interfaces/package.dsv'
+[1.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/koji/robotics/robotics-learning/project_ws/install/greenhouse_interfaces/share/greenhouse_interfaces/package.sh'
+[1.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/koji/robotics/robotics-learning/project_ws/install/greenhouse_interfaces/share/greenhouse_interfaces/package.bash'
+[1.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/koji/robotics/robotics-learning/project_ws/install/greenhouse_interfaces/share/greenhouse_interfaces/package.zsh'
+[1.242s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/koji/robotics/robotics-learning/project_ws/install/greenhouse_interfaces/share/colcon-core/packages/greenhouse_interfaces)
+[1.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/koji/robotics/robotics-learning/project_ws/build/irrigation_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/koji/robotics/robotics-learning/project_ws/build/irrigation_interfaces -- -j12 -l12
+[1.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/koji/robotics/robotics-learning/project_ws/build/irrigation_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/koji/robotics/robotics-learning/project_ws/build/irrigation_interfaces
+[1.248s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/koji/robotics/robotics-learning/project_ws/src/smart_greenhouse_controller' with build type 'ament_python'
+[1.248s] Level 1:colcon.colcon_core.shell:create_environment_hook('smart_greenhouse_controller', 'ament_prefix_path')
+[1.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/share/smart_greenhouse_controller/hook/ament_prefix_path.ps1'
+[1.250s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/share/smart_greenhouse_controller/hook/ament_prefix_path.dsv'
+[1.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/share/smart_greenhouse_controller/hook/ament_prefix_path.sh'
+[1.252s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.252s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.734s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/koji/robotics/robotics-learning/project_ws/src/smart_greenhouse_controller'
+[1.734s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.734s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.742s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(irrigation_interfaces)
+[1.743s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces' for CMake module files
+[1.744s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/koji/robotics/robotics-learning/project_ws/build/irrigation_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/koji/robotics/robotics-learning/project_ws/build/irrigation_interfaces
+[1.745s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces' for CMake config files
+[1.746s] Level 1:colcon.colcon_core.shell:create_environment_hook('irrigation_interfaces', 'cmake_prefix_path')
+[1.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/share/irrigation_interfaces/hook/cmake_prefix_path.ps1'
+[1.748s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/share/irrigation_interfaces/hook/cmake_prefix_path.dsv'
+[1.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/share/irrigation_interfaces/hook/cmake_prefix_path.sh'
+[1.750s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/lib'
+[1.750s] Level 1:colcon.colcon_core.shell:create_environment_hook('irrigation_interfaces', 'ld_library_path_lib')
+[1.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/share/irrigation_interfaces/hook/ld_library_path_lib.ps1'
+[1.751s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/share/irrigation_interfaces/hook/ld_library_path_lib.dsv'
+[1.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/share/irrigation_interfaces/hook/ld_library_path_lib.sh'
+[1.753s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/bin'
+[1.753s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/lib/pkgconfig/irrigation_interfaces.pc'
+[1.753s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/lib/python3.12/site-packages'
+[1.753s] Level 1:colcon.colcon_core.shell:create_environment_hook('irrigation_interfaces', 'pythonpath')
+[1.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/share/irrigation_interfaces/hook/pythonpath.ps1'
+[1.755s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/share/irrigation_interfaces/hook/pythonpath.dsv'
+[1.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/share/irrigation_interfaces/hook/pythonpath.sh'
+[1.757s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/bin'
+[1.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/share/irrigation_interfaces/package.ps1'
+[1.758s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/share/irrigation_interfaces/package.dsv'
+[1.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/share/irrigation_interfaces/package.sh'
+[1.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/share/irrigation_interfaces/package.bash'
+[1.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/share/irrigation_interfaces/package.zsh'
+[1.763s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/share/colcon-core/packages/irrigation_interfaces)
+[1.764s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(irrigation_interfaces)
+[1.764s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces' for CMake module files
+[1.765s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces' for CMake config files
+[1.766s] Level 1:colcon.colcon_core.shell:create_environment_hook('irrigation_interfaces', 'cmake_prefix_path')
+[1.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/share/irrigation_interfaces/hook/cmake_prefix_path.ps1'
+[1.767s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/share/irrigation_interfaces/hook/cmake_prefix_path.dsv'
+[1.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/share/irrigation_interfaces/hook/cmake_prefix_path.sh'
+[1.769s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/lib'
+[1.769s] Level 1:colcon.colcon_core.shell:create_environment_hook('irrigation_interfaces', 'ld_library_path_lib')
+[1.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/share/irrigation_interfaces/hook/ld_library_path_lib.ps1'
+[1.770s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/share/irrigation_interfaces/hook/ld_library_path_lib.dsv'
+[1.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/share/irrigation_interfaces/hook/ld_library_path_lib.sh'
+[1.771s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/bin'
+[1.771s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/lib/pkgconfig/irrigation_interfaces.pc'
+[1.772s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/lib/python3.12/site-packages'
+[1.772s] Level 1:colcon.colcon_core.shell:create_environment_hook('irrigation_interfaces', 'pythonpath')
+[1.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/share/irrigation_interfaces/hook/pythonpath.ps1'
+[1.773s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/share/irrigation_interfaces/hook/pythonpath.dsv'
+[1.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/share/irrigation_interfaces/hook/pythonpath.sh'
+[1.775s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/bin'
+[1.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/share/irrigation_interfaces/package.ps1'
+[1.777s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/share/irrigation_interfaces/package.dsv'
+[1.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/share/irrigation_interfaces/package.sh'
+[1.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/share/irrigation_interfaces/package.bash'
+[1.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/share/irrigation_interfaces/package.zsh'
+[1.780s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/share/colcon-core/packages/irrigation_interfaces)
+[1.781s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/koji/robotics/robotics-learning/project_ws/src/smart_irrigation_system' with build type 'ament_python'
+[1.782s] Level 1:colcon.colcon_core.shell:create_environment_hook('smart_irrigation_system', 'ament_prefix_path')
+[1.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/install/smart_irrigation_system/share/smart_irrigation_system/hook/ament_prefix_path.ps1'
+[1.783s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/koji/robotics/robotics-learning/project_ws/install/smart_irrigation_system/share/smart_irrigation_system/hook/ament_prefix_path.dsv'
+[1.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/install/smart_irrigation_system/share/smart_irrigation_system/hook/ament_prefix_path.sh'
+[1.785s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.785s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.220s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/koji/robotics/robotics-learning/project_ws/src/smart_irrigation_system'
+[2.220s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.221s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.227s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: setopt, build_clib, bdist_dumb, build_ext, symlink_data, build_py, extract_messages, editable_wheel, install, sdist, upload, init_catalog, easy_install, bdist_rpm, check, upload_docs, build_scripts, bdist, test, build, saveopts, bdist_egg, install_headers, install_data, dist_info, install_scripts, compile_catalog, rotate, develop, register, alias, clean, egg_info, update_catalog, install_egg_info, install_lib
+[2.286s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: setopt, build_clib, bdist_dumb, build_ext, symlink_data, build_py, extract_messages, editable_wheel, install, sdist, upload, init_catalog, easy_install, bdist_rpm, check, upload_docs, build_scripts, bdist, test, build, saveopts, bdist_egg, install_headers, install_data, dist_info, install_scripts, compile_catalog, rotate, develop, register, alias, clean, egg_info, update_catalog, install_egg_info, install_lib
+[2.748s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --allow-hosts, --egg-path, --script-dir, --verbose, --uninstall, --no-user-cfg, --multi-version, --quiet, --force-installation-into-system-dir, --record, --editable, --site-dirs, --prefix, --install-dir, --no-deps, --find-links, --version, --user, --always-unzip, --zip-ok, --exclude-scripts, --build-directory, --help, --local-snapshots-ok, --index-url, --optimize, --always-copy, --no-find-links, --upgrade, --install-layout, --dry-run
+[2.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/koji/robotics/robotics-learning/project_ws/build/addition_qlty_checker_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/koji/robotics/robotics-learning/project_ws/build/addition_qlty_checker_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koji/robotics/robotics-learning/project_ws/install/addition_qlty_checker_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/koji/robotics/robotics-learning/project_ws/build/addition_qlty_checker_pkg/build --no-deps symlink_data
+[2.796s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: setopt, build_clib, bdist_dumb, build_ext, symlink_data, build_py, extract_messages, editable_wheel, install, sdist, upload, init_catalog, easy_install, bdist_rpm, check, upload_docs, build_scripts, bdist, test, build, saveopts, bdist_egg, install_headers, install_data, dist_info, install_scripts, compile_catalog, rotate, develop, register, alias, clean, egg_info, update_catalog, install_egg_info, install_lib
+[2.803s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --allow-hosts, --egg-path, --script-dir, --verbose, --uninstall, --no-user-cfg, --multi-version, --quiet, --force-installation-into-system-dir, --record, --editable, --site-dirs, --prefix, --install-dir, --no-deps, --find-links, --version, --user, --always-unzip, --zip-ok, --exclude-scripts, --build-directory, --help, --local-snapshots-ok, --index-url, --optimize, --always-copy, --no-find-links, --upgrade, --install-layout, --dry-run
+[2.806s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/koji/robotics/robotics-learning/project_ws/build/temperature_monitor_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/koji/robotics/robotics-learning/project_ws/build/temperature_monitor_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koji/robotics/robotics-learning/project_ws/install/temperature_monitor_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/koji/robotics/robotics-learning/project_ws/build/temperature_monitor_pkg/build --no-deps symlink_data
+[3.078s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: setopt, build_clib, bdist_dumb, build_ext, symlink_data, build_py, extract_messages, editable_wheel, install, sdist, upload, init_catalog, easy_install, bdist_rpm, check, upload_docs, build_scripts, bdist, test, build, saveopts, bdist_egg, install_headers, install_data, dist_info, install_scripts, compile_catalog, rotate, develop, register, alias, clean, egg_info, update_catalog, install_egg_info, install_lib
+[3.310s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --allow-hosts, --egg-path, --script-dir, --verbose, --uninstall, --no-user-cfg, --multi-version, --quiet, --force-installation-into-system-dir, --record, --editable, --site-dirs, --prefix, --install-dir, --no-deps, --find-links, --version, --user, --always-unzip, --zip-ok, --exclude-scripts, --build-directory, --help, --local-snapshots-ok, --index-url, --optimize, --always-copy, --no-find-links, --upgrade, --install-layout, --dry-run
+[3.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/koji/robotics/robotics-learning/project_ws/build/smart_greenhouse_controller': AMENT_PREFIX_PATH=/home/koji/robotics/robotics-learning/project_ws/install/greenhouse_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/koji/robotics/robotics-learning/project_ws/install/greenhouse_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/koji/robotics/robotics-learning/project_ws/build/smart_greenhouse_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/koji/robotics/robotics-learning/project_ws/build/smart_greenhouse_controller/build --no-deps symlink_data
+[3.543s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --allow-hosts, --egg-path, --script-dir, --verbose, --uninstall, --no-user-cfg, --multi-version, --quiet, --force-installation-into-system-dir, --record, --editable, --site-dirs, --prefix, --install-dir, --no-deps, --find-links, --version, --user, --always-unzip, --zip-ok, --exclude-scripts, --build-directory, --help, --local-snapshots-ok, --index-url, --optimize, --always-copy, --no-find-links, --upgrade, --install-layout, --dry-run
+[3.546s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/koji/robotics/robotics-learning/project_ws/build/smart_irrigation_system': AMENT_PREFIX_PATH=/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/koji/robotics/robotics-learning/project_ws/build/smart_irrigation_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koji/robotics/robotics-learning/project_ws/install/smart_irrigation_system/lib/python3.12/site-packages:/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/koji/robotics/robotics-learning/project_ws/build/smart_irrigation_system/build --no-deps symlink_data
+[3.678s] Level 1:colcon.colcon_core.shell:create_environment_hook('addition_qlty_checker_pkg', 'pythonpath_develop')
+[3.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/build/addition_qlty_checker_pkg/share/addition_qlty_checker_pkg/hook/pythonpath_develop.ps1'
+[3.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/koji/robotics/robotics-learning/project_ws/build/addition_qlty_checker_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/koji/robotics/robotics-learning/project_ws/build/addition_qlty_checker_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koji/robotics/robotics-learning/project_ws/install/addition_qlty_checker_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/koji/robotics/robotics-learning/project_ws/build/addition_qlty_checker_pkg/build --no-deps symlink_data
+[3.681s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/koji/robotics/robotics-learning/project_ws/build/addition_qlty_checker_pkg/share/addition_qlty_checker_pkg/hook/pythonpath_develop.dsv'
+[3.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/build/addition_qlty_checker_pkg/share/addition_qlty_checker_pkg/hook/pythonpath_develop.sh'
+[3.683s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/addition_qlty_checker_pkg' for CMake module files
+[3.684s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/addition_qlty_checker_pkg' for CMake config files
+[3.685s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/addition_qlty_checker_pkg/lib'
+[3.685s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/addition_qlty_checker_pkg/bin'
+[3.685s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/addition_qlty_checker_pkg/lib/pkgconfig/addition_qlty_checker_pkg.pc'
+[3.686s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/addition_qlty_checker_pkg/lib/python3.12/site-packages'
+[3.686s] Level 1:colcon.colcon_core.shell:create_environment_hook('addition_qlty_checker_pkg', 'pythonpath')
+[3.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/install/addition_qlty_checker_pkg/share/addition_qlty_checker_pkg/hook/pythonpath.ps1'
+[3.688s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/koji/robotics/robotics-learning/project_ws/install/addition_qlty_checker_pkg/share/addition_qlty_checker_pkg/hook/pythonpath.dsv'
+[3.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/install/addition_qlty_checker_pkg/share/addition_qlty_checker_pkg/hook/pythonpath.sh'
+[3.691s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/addition_qlty_checker_pkg/bin'
+[3.691s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(addition_qlty_checker_pkg)
+[3.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/koji/robotics/robotics-learning/project_ws/install/addition_qlty_checker_pkg/share/addition_qlty_checker_pkg/package.ps1'
+[3.693s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/koji/robotics/robotics-learning/project_ws/install/addition_qlty_checker_pkg/share/addition_qlty_checker_pkg/package.dsv'
+[3.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/koji/robotics/robotics-learning/project_ws/install/addition_qlty_checker_pkg/share/addition_qlty_checker_pkg/package.sh'
+[3.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/koji/robotics/robotics-learning/project_ws/install/addition_qlty_checker_pkg/share/addition_qlty_checker_pkg/package.bash'
+[3.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/koji/robotics/robotics-learning/project_ws/install/addition_qlty_checker_pkg/share/addition_qlty_checker_pkg/package.zsh'
+[3.697s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/koji/robotics/robotics-learning/project_ws/install/addition_qlty_checker_pkg/share/colcon-core/packages/addition_qlty_checker_pkg)
+[3.722s] Level 1:colcon.colcon_core.shell:create_environment_hook('temperature_monitor_pkg', 'pythonpath_develop')
+[3.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/koji/robotics/robotics-learning/project_ws/build/temperature_monitor_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/koji/robotics/robotics-learning/project_ws/build/temperature_monitor_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koji/robotics/robotics-learning/project_ws/install/temperature_monitor_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/koji/robotics/robotics-learning/project_ws/build/temperature_monitor_pkg/build --no-deps symlink_data
+[3.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/build/temperature_monitor_pkg/share/temperature_monitor_pkg/hook/pythonpath_develop.ps1'
+[3.724s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/koji/robotics/robotics-learning/project_ws/build/temperature_monitor_pkg/share/temperature_monitor_pkg/hook/pythonpath_develop.dsv'
+[3.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/build/temperature_monitor_pkg/share/temperature_monitor_pkg/hook/pythonpath_develop.sh'
+[3.726s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/temperature_monitor_pkg' for CMake module files
+[3.727s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/temperature_monitor_pkg' for CMake config files
+[3.729s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/temperature_monitor_pkg/lib'
+[3.729s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/temperature_monitor_pkg/bin'
+[3.729s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/temperature_monitor_pkg/lib/pkgconfig/temperature_monitor_pkg.pc'
+[3.729s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/temperature_monitor_pkg/lib/python3.12/site-packages'
+[3.730s] Level 1:colcon.colcon_core.shell:create_environment_hook('temperature_monitor_pkg', 'pythonpath')
+[3.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/install/temperature_monitor_pkg/share/temperature_monitor_pkg/hook/pythonpath.ps1'
+[3.731s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/koji/robotics/robotics-learning/project_ws/install/temperature_monitor_pkg/share/temperature_monitor_pkg/hook/pythonpath.dsv'
+[3.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/install/temperature_monitor_pkg/share/temperature_monitor_pkg/hook/pythonpath.sh'
+[3.734s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/temperature_monitor_pkg/bin'
+[3.734s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(temperature_monitor_pkg)
+[3.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/koji/robotics/robotics-learning/project_ws/install/temperature_monitor_pkg/share/temperature_monitor_pkg/package.ps1'
+[3.736s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/koji/robotics/robotics-learning/project_ws/install/temperature_monitor_pkg/share/temperature_monitor_pkg/package.dsv'
+[3.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/koji/robotics/robotics-learning/project_ws/install/temperature_monitor_pkg/share/temperature_monitor_pkg/package.sh'
+[3.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/koji/robotics/robotics-learning/project_ws/install/temperature_monitor_pkg/share/temperature_monitor_pkg/package.bash'
+[3.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/koji/robotics/robotics-learning/project_ws/install/temperature_monitor_pkg/share/temperature_monitor_pkg/package.zsh'
+[3.740s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/koji/robotics/robotics-learning/project_ws/install/temperature_monitor_pkg/share/colcon-core/packages/temperature_monitor_pkg)
+[4.224s] Level 1:colcon.colcon_core.shell:create_environment_hook('smart_greenhouse_controller', 'pythonpath_develop')
+[4.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/build/smart_greenhouse_controller/share/smart_greenhouse_controller/hook/pythonpath_develop.ps1'
+[4.225s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/koji/robotics/robotics-learning/project_ws/build/smart_greenhouse_controller' returned '0': AMENT_PREFIX_PATH=/home/koji/robotics/robotics-learning/project_ws/install/greenhouse_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/koji/robotics/robotics-learning/project_ws/install/greenhouse_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/koji/robotics/robotics-learning/project_ws/build/smart_greenhouse_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/koji/robotics/robotics-learning/project_ws/build/smart_greenhouse_controller/build --no-deps symlink_data
+[4.226s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/koji/robotics/robotics-learning/project_ws/build/smart_greenhouse_controller/share/smart_greenhouse_controller/hook/pythonpath_develop.dsv'
+[4.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/build/smart_greenhouse_controller/share/smart_greenhouse_controller/hook/pythonpath_develop.sh'
+[4.228s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller' for CMake module files
+[4.229s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller' for CMake config files
+[4.230s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/lib'
+[4.230s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/bin'
+[4.230s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/lib/pkgconfig/smart_greenhouse_controller.pc'
+[4.231s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/lib/python3.12/site-packages'
+[4.231s] Level 1:colcon.colcon_core.shell:create_environment_hook('smart_greenhouse_controller', 'pythonpath')
+[4.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/share/smart_greenhouse_controller/hook/pythonpath.ps1'
+[4.232s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/share/smart_greenhouse_controller/hook/pythonpath.dsv'
+[4.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/share/smart_greenhouse_controller/hook/pythonpath.sh'
+[4.234s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/bin'
+[4.234s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(smart_greenhouse_controller)
+[4.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/share/smart_greenhouse_controller/package.ps1'
+[4.236s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/share/smart_greenhouse_controller/package.dsv'
+[4.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/share/smart_greenhouse_controller/package.sh'
+[4.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/share/smart_greenhouse_controller/package.bash'
+[4.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/share/smart_greenhouse_controller/package.zsh'
+[4.239s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/share/colcon-core/packages/smart_greenhouse_controller)
+[4.462s] Level 1:colcon.colcon_core.shell:create_environment_hook('smart_irrigation_system', 'pythonpath_develop')
+[4.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/build/smart_irrigation_system/share/smart_irrigation_system/hook/pythonpath_develop.ps1'
+[4.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/koji/robotics/robotics-learning/project_ws/build/smart_irrigation_system' returned '0': AMENT_PREFIX_PATH=/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/koji/robotics/robotics-learning/project_ws/build/smart_irrigation_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koji/robotics/robotics-learning/project_ws/install/smart_irrigation_system/lib/python3.12/site-packages:/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/koji/robotics/robotics-learning/project_ws/build/smart_irrigation_system/build --no-deps symlink_data
+[4.464s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/koji/robotics/robotics-learning/project_ws/build/smart_irrigation_system/share/smart_irrigation_system/hook/pythonpath_develop.dsv'
+[4.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/build/smart_irrigation_system/share/smart_irrigation_system/hook/pythonpath_develop.sh'
+[4.466s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/smart_irrigation_system' for CMake module files
+[4.467s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/smart_irrigation_system' for CMake config files
+[4.468s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/smart_irrigation_system/lib'
+[4.468s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/smart_irrigation_system/bin'
+[4.468s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/smart_irrigation_system/lib/pkgconfig/smart_irrigation_system.pc'
+[4.469s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/smart_irrigation_system/lib/python3.12/site-packages'
+[4.469s] Level 1:colcon.colcon_core.shell:create_environment_hook('smart_irrigation_system', 'pythonpath')
+[4.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/install/smart_irrigation_system/share/smart_irrigation_system/hook/pythonpath.ps1'
+[4.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/koji/robotics/robotics-learning/project_ws/install/smart_irrigation_system/share/smart_irrigation_system/hook/pythonpath.dsv'
+[4.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/koji/robotics/robotics-learning/project_ws/install/smart_irrigation_system/share/smart_irrigation_system/hook/pythonpath.sh'
+[4.472s] Level 1:colcon.colcon_core.environment:checking '/home/koji/robotics/robotics-learning/project_ws/install/smart_irrigation_system/bin'
+[4.472s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(smart_irrigation_system)
+[4.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/koji/robotics/robotics-learning/project_ws/install/smart_irrigation_system/share/smart_irrigation_system/package.ps1'
+[4.474s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/koji/robotics/robotics-learning/project_ws/install/smart_irrigation_system/share/smart_irrigation_system/package.dsv'
+[4.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/koji/robotics/robotics-learning/project_ws/install/smart_irrigation_system/share/smart_irrigation_system/package.sh'
+[4.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/koji/robotics/robotics-learning/project_ws/install/smart_irrigation_system/share/smart_irrigation_system/package.bash'
+[4.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/koji/robotics/robotics-learning/project_ws/install/smart_irrigation_system/share/smart_irrigation_system/package.zsh'
+[4.478s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/koji/robotics/robotics-learning/project_ws/install/smart_irrigation_system/share/colcon-core/packages/smart_irrigation_system)
+[4.478s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.478s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.479s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.479s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.490s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.490s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.490s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.510s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.511s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/koji/robotics/robotics-learning/project_ws/install/local_setup.ps1'
+[4.513s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/koji/robotics/robotics-learning/project_ws/install/_local_setup_util_ps1.py'
+[4.515s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/koji/robotics/robotics-learning/project_ws/install/setup.ps1'
+[4.517s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/koji/robotics/robotics-learning/project_ws/install/local_setup.sh'
+[4.518s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/koji/robotics/robotics-learning/project_ws/install/_local_setup_util_sh.py'
+[4.520s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/koji/robotics/robotics-learning/project_ws/install/setup.sh'
+[4.522s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/koji/robotics/robotics-learning/project_ws/install/local_setup.bash'
+[4.523s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/koji/robotics/robotics-learning/project_ws/install/setup.bash'
+[4.524s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/koji/robotics/robotics-learning/project_ws/install/local_setup.zsh'
+[4.525s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/koji/robotics/robotics-learning/project_ws/install/setup.zsh'

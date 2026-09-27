@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating smart_greenhouse_controller.egg-info
+writing smart_greenhouse_controller.egg-info/PKG-INFO
+writing dependency_links to smart_greenhouse_controller.egg-info/dependency_links.txt
+writing entry points to smart_greenhouse_controller.egg-info/entry_points.txt
+writing requirements to smart_greenhouse_controller.egg-info/requires.txt
+writing top-level names to smart_greenhouse_controller.egg-info/top_level.txt
+writing manifest file 'smart_greenhouse_controller.egg-info/SOURCES.txt'
+reading manifest file 'smart_greenhouse_controller.egg-info/SOURCES.txt'
+writing manifest file 'smart_greenhouse_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/lib/python3.12/site-packages/smart-greenhouse-controller.egg-link (link to .)
+Installing pub script to /home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/lib/smart_greenhouse_controller
+Installing sub script to /home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/lib/smart_greenhouse_controller
+
+Installed /home/koji/robotics/robotics-learning/project_ws/build/smart_greenhouse_controller
+running symlink_data
+creating /home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/share/ament_index
+creating /home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/share/ament_index/resource_index
+creating /home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/share/ament_index/resource_index/packages
+symbolically linking /home/koji/robotics/robotics-learning/project_ws/build/smart_greenhouse_controller/resource/smart_greenhouse_controller -> /home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/share/ament_index/resource_index/packages
+symbolically linking /home/koji/robotics/robotics-learning/project_ws/build/smart_greenhouse_controller/package.xml -> /home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/share/smart_greenhouse_controller

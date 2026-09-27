@@ -1,0 +1,1 @@
+/home/koji/robotics/robotics-learning/project_ws/build/greenhouse_interfaces/rosidl_typesupport_introspection_c/greenhouse_interfaces/msg/detail/sensor__rosidl_typesupport_introspection_c.h

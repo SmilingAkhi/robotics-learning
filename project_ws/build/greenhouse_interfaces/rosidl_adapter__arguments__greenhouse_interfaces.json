@@ -1,0 +1,7 @@
+{
+  "package_name": "greenhouse_interfaces",
+  "non_idl_tuples": [
+    "/home/koji/robotics/robotics-learning/project_ws/src/greenhouse_interfaces:msg/Sensor.msg",
+    "/home/koji/robotics/robotics-learning/project_ws/src/greenhouse_interfaces:srv/Sensor.srv"
+  ]
+}

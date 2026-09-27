@@ -1,0 +1,18 @@
+[1.061s] Invoking command in '/home/koji/robotics/robotics-learning/project_ws/build/smart_greenhouse_controller': CMAKE_PREFIX_PATH=/home/koji/robotics/robotics-learning/project_ws/install/greenhouse_interfaces:/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/koji/robotics/robotics-learning/project_ws/build/smart_greenhouse_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/koji/robotics/robotics-learning/project_ws/build/smart_greenhouse_controller/build --no-deps symlink_data
+[1.343s] running develop
+[1.515s] running egg_info
+[1.531s] writing smart_greenhouse_controller.egg-info/PKG-INFO
+[1.531s] writing dependency_links to smart_greenhouse_controller.egg-info/dependency_links.txt
+[1.532s] writing entry points to smart_greenhouse_controller.egg-info/entry_points.txt
+[1.532s] writing requirements to smart_greenhouse_controller.egg-info/requires.txt
+[1.532s] writing top-level names to smart_greenhouse_controller.egg-info/top_level.txt
+[1.565s] reading manifest file 'smart_greenhouse_controller.egg-info/SOURCES.txt'
+[1.565s] writing manifest file 'smart_greenhouse_controller.egg-info/SOURCES.txt'
+[1.583s] running build_ext
+[1.583s] Creating /home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/lib/python3.12/site-packages/smart-greenhouse-controller.egg-link (link to .)
+[1.583s] Installing pub script to /home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/lib/smart_greenhouse_controller
+[1.584s] Installing sub script to /home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/lib/smart_greenhouse_controller
+[1.584s] 
+[1.584s] Installed /home/koji/robotics/robotics-learning/project_ws/build/smart_greenhouse_controller
+[1.584s] running symlink_data
+[1.628s] Invoked command in '/home/koji/robotics/robotics-learning/project_ws/build/smart_greenhouse_controller' returned '0': CMAKE_PREFIX_PATH=/home/koji/robotics/robotics-learning/project_ws/install/greenhouse_interfaces:/home/koji/robotics/robotics-learning/project_ws/install/irrigation_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/koji/robotics/robotics-learning/project_ws/build/smart_greenhouse_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/koji/robotics/robotics-learning/project_ws/build/smart_greenhouse_controller/build --no-deps symlink_data

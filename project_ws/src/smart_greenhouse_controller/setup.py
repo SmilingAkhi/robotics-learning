@@ -1,3 +1,5 @@
+import os
+from glob import glob
 from setuptools import find_packages, setup
 
 package_name = 'smart_greenhouse_controller'
@@ -10,12 +12,13 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        (os.path.join('share', package_name, 'launch'), glob('launch/*'))
     ],
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='koji',
     maintainer_email='bhabdulrahaman@gmail.com',
-    description='TODO: Package description',
+    description='Smart Greenhouse Controller',
     license='Apache-2.0',
     extras_require={
         'test': [
@@ -24,6 +27,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'pub = smart_greenhouse_controller.greenhouse_publisher:main',
+            'sub = smart_greenhouse_controller.greenhouse_subscriber:main',
         ],
     },
 )
