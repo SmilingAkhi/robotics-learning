@@ -42,8 +42,8 @@ struct Sensor_Request_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->temperature = 0.0f;
-      this->humidity = 0.0f;
+      this->temperature = 0ll;
+      this->humidity = 0ll;
     }
   }
 
@@ -53,28 +53,28 @@ struct Sensor_Request_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->temperature = 0.0f;
-      this->humidity = 0.0f;
+      this->temperature = 0ll;
+      this->humidity = 0ll;
     }
   }
 
   // field types and members
   using _temperature_type =
-    float;
+    int64_t;
   _temperature_type temperature;
   using _humidity_type =
-    float;
+    int64_t;
   _humidity_type humidity;
 
   // setters for named parameter idiom
   Type & set__temperature(
-    const float & _arg)
+    const int64_t & _arg)
   {
     this->temperature = _arg;
     return *this;
   }
   Type & set__humidity(
-    const float & _arg)
+    const int64_t & _arg)
   {
     this->humidity = _arg;
     return *this;

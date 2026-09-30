@@ -30,12 +30,12 @@ pub struct Sensor_Request {
 
     // This member is not documented.
     #[allow(missing_docs)]
-    pub temperature: f32,
+    pub temperature: i64,
 
 
     // This member is not documented.
     #[allow(missing_docs)]
-    pub humidity: f32,
+    pub humidity: i64,
 
 }
 

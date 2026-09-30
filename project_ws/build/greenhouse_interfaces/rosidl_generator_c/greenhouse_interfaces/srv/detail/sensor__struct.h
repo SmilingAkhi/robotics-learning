@@ -23,8 +23,8 @@ extern "C"
 /// Struct defined in srv/Sensor in the package greenhouse_interfaces.
 typedef struct greenhouse_interfaces__srv__Sensor_Request
 {
-  float temperature;
-  float humidity;
+  int64_t temperature;
+  int64_t humidity;
 } greenhouse_interfaces__srv__Sensor_Request;
 
 // Struct for a sequence of greenhouse_interfaces__srv__Sensor_Request.

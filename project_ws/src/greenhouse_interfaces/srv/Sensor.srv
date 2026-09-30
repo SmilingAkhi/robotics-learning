@@ -1,5 +1,5 @@
-float32 temperature
-float32 humidity
+int64 temperature
+int64 humidity
 ---
 bool fan_on
 bool irrigation_on

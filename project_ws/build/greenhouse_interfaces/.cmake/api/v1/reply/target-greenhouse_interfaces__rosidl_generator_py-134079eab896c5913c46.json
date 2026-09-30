@@ -640,16 +640,16 @@
 	"dependencies" : 
 	[
 		{
+			"backtrace" : 75,
+			"id" : "greenhouse_interfaces__py::@23e389d2a1e1d00831c6"
+		},
+		{
 			"backtrace" : 12,
 			"id" : "greenhouse_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 75,
 			"id" : "greenhouse_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 75,
-			"id" : "greenhouse_interfaces__py::@23e389d2a1e1d00831c6"
 		}
 	],
 	"id" : "greenhouse_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",

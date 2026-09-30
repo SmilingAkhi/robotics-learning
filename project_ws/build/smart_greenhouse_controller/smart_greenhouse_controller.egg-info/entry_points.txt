@@ -1,3 +1,5 @@
 [console_scripts]
+client = smart_greenhouse_controller.greenhouse_client:main
 pub = smart_greenhouse_controller.greenhouse_publisher:main
+server = smart_greenhouse_controller.greenhouse_server:main
 sub = smart_greenhouse_controller.greenhouse_subscriber:main

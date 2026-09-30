@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "greenhouse_interfaces/srv/detail/sensor__functions.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "greenhouse_interfaces/srv/detail/sensor__struct.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "greenhouse_interfaces/srv/detail/sensor__functions.h"
 #include "greenhouse_interfaces/srv/detail/sensor__type_support.h"
 
 #ifdef __cplusplus

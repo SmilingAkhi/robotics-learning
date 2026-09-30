@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/smart_greenhouse_controller/smart_greenhouse_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/smart_greenhouse_controller/smart_greenhouse_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/smart_greenhouse_controller/smart_greenhouse_controller.egg-info/entry_points.txt
+writing requirements to ../../build/smart_greenhouse_controller/smart_greenhouse_controller.egg-info/requires.txt
+writing top-level names to ../../build/smart_greenhouse_controller/smart_greenhouse_controller.egg-info/top_level.txt
+reading manifest file '../../build/smart_greenhouse_controller/smart_greenhouse_controller.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/smart_greenhouse_controller/smart_greenhouse_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/greenhouse_launch.py -> /home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/share/smart_greenhouse_controller/launch
+running install_egg_info
+removing '/home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/lib/python3.12/site-packages/smart_greenhouse_controller-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/smart_greenhouse_controller/smart_greenhouse_controller.egg-info to /home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/lib/python3.12/site-packages/smart_greenhouse_controller-0.0.0-py3.12.egg-info
+running install_scripts
+Installing client script to /home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/lib/smart_greenhouse_controller
+Installing pub script to /home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/lib/smart_greenhouse_controller
+Installing server script to /home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/lib/smart_greenhouse_controller
+Installing sub script to /home/koji/robotics/robotics-learning/project_ws/install/smart_greenhouse_controller/lib/smart_greenhouse_controller
+writing list of installed files to '/home/koji/robotics/robotics-learning/project_ws/build/smart_greenhouse_controller/install.log'

@@ -29,6 +29,8 @@ setup(
         'console_scripts': [
             'pub = smart_greenhouse_controller.greenhouse_publisher:main',
             'sub = smart_greenhouse_controller.greenhouse_subscriber:main',
+            'client = smart_greenhouse_controller.greenhouse_client:main',
+            'server = smart_greenhouse_controller.greenhouse_server:main',
         ],
     },
 )

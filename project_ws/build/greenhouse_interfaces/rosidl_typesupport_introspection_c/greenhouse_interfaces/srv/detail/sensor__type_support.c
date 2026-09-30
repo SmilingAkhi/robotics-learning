@@ -34,7 +34,7 @@ void greenhouse_interfaces__srv__Sensor_Request__rosidl_typesupport_introspectio
 static rosidl_typesupport_introspection_c__MessageMember greenhouse_interfaces__srv__Sensor_Request__rosidl_typesupport_introspection_c__Sensor_Request_message_member_array[2] = {
   {
     "temperature",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
+    rosidl_typesupport_introspection_c__ROS_TYPE_INT64,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is key
@@ -52,7 +52,7 @@ static rosidl_typesupport_introspection_c__MessageMember greenhouse_interfaces__
   },
   {
     "humidity",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
+    rosidl_typesupport_introspection_c__ROS_TYPE_INT64,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is key

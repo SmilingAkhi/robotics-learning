@@ -7,7 +7,7 @@ class greenhousePublisher(Node):
     def __init__(self):
         super().__init__('greenhousePublisher')
         self.publisher_ = self.create_publisher(Sensor, '/greenhouse/environment', 10)
-        self.declare_parameter('temperature', 32)
+        self.declare_parameter('temperature', 29)
         self.declare_parameter('humidity', 12)
         self.timer_ = self.create_timer(2, self.timer_callback)
 
@@ -32,7 +32,7 @@ def main():
     publisher_node = greenhousePublisher()
     rclpy.spin(publisher_node)
 
-    rclpy.shutdown
+    rclpy.shutdown()
 
 if __name__ == '__main__':
     main()

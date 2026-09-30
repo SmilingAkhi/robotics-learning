@@ -41,7 +41,7 @@ void Sensor_Request_fini_function(void * message_memory)
 static const ::rosidl_typesupport_introspection_cpp::MessageMember Sensor_Request_message_member_array[2] = {
   {
     "temperature",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT64,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is key
@@ -59,7 +59,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Sensor_Reques
   },
   {
     "humidity",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT64,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is key

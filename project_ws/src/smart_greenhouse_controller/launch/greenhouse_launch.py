@@ -12,5 +12,8 @@ def generate_launch_description():
             package='smart_greenhouse_controller',
             executable='sub',
             name='sub'),
-
+        Node(
+            package='smart_greenhouse_controller',
+            executable='server',
+            name='sub'),
     ])

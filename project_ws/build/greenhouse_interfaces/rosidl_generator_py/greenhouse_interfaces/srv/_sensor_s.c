@@ -55,8 +55,8 @@ bool greenhouse_interfaces__srv__sensor__request__convert_from_py(PyObject * _py
     if (!field) {
       return false;
     }
-    assert(PyFloat_Check(field));
-    ros_message->temperature = (float)PyFloat_AS_DOUBLE(field);
+    assert(PyLong_Check(field));
+    ros_message->temperature = PyLong_AsLongLong(field);
     Py_DECREF(field);
   }
   {  // humidity
@@ -64,8 +64,8 @@ bool greenhouse_interfaces__srv__sensor__request__convert_from_py(PyObject * _py
     if (!field) {
       return false;
     }
-    assert(PyFloat_Check(field));
-    ros_message->humidity = (float)PyFloat_AS_DOUBLE(field);
+    assert(PyLong_Check(field));
+    ros_message->humidity = PyLong_AsLongLong(field);
     Py_DECREF(field);
   }
 
@@ -92,7 +92,7 @@ PyObject * greenhouse_interfaces__srv__sensor__request__convert_to_py(void * raw
   greenhouse_interfaces__srv__Sensor_Request * ros_message = (greenhouse_interfaces__srv__Sensor_Request *)raw_ros_message;
   {  // temperature
     PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->temperature);
+    field = PyLong_FromLongLong(ros_message->temperature);
     {
       int rc = PyObject_SetAttrString(_pymessage, "temperature", field);
       Py_DECREF(field);
@@ -103,7 +103,7 @@ PyObject * greenhouse_interfaces__srv__sensor__request__convert_to_py(void * raw
   }
   {  // humidity
     PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->humidity);
+    field = PyLong_FromLongLong(ros_message->humidity);
     {
       int rc = PyObject_SetAttrString(_pymessage, "humidity", field);
       Py_DECREF(field);

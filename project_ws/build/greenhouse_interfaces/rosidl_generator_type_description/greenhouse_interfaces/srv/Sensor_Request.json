@@ -6,7 +6,7 @@
         {
           "name": "temperature",
           "type": {
-            "type_id": 10,
+            "type_id": 8,
             "capacity": 0,
             "string_capacity": 0,
             "nested_type_name": ""
@@ -16,7 +16,7 @@
         {
           "name": "humidity",
           "type": {
-            "type_id": 10,
+            "type_id": 8,
             "capacity": 0,
             "string_capacity": 0,
             "nested_type_name": ""
@@ -30,7 +30,7 @@
   "type_hashes": [
     {
       "type_name": "greenhouse_interfaces/srv/Sensor_Request",
-      "hash_string": "RIHS01_f90beb2074ac4ff214af561f66f72d6e43cdab81236d56d10cf59caff8d350c3"
+      "hash_string": "RIHS01_f7537f3cd71e7b7e551f18f4c3ffda0d74c1b7e9d2db0eb5e404cdc1b6b71621"
     }
   ]
 }

@@ -14,8 +14,6 @@ ros_python_check_fields = getenv('ROS_PYTHON_CHECK_FIELDS', default='')
 
 import builtins  # noqa: E402, I100
 
-import math  # noqa: E402, I100
-
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -70,15 +68,15 @@ class Sensor_Request(metaclass=Metaclass_Sensor_Request):
     ]
 
     _fields_and_field_types = {
-        'temperature': 'float',
-        'humidity': 'float',
+        'temperature': 'int64',
+        'humidity': 'int64',
     }
 
     # This attribute is used to store an rosidl_parser.definition variable
     # related to the data type of each of the components the message.
     SLOT_TYPES = (
-        rosidl_parser.definition.BasicType('float'),  # noqa: E501
-        rosidl_parser.definition.BasicType('float'),  # noqa: E501
+        rosidl_parser.definition.BasicType('int64'),  # noqa: E501
+        rosidl_parser.definition.BasicType('int64'),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -90,8 +88,8 @@ class Sensor_Request(metaclass=Metaclass_Sensor_Request):
             assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
                 'Invalid arguments passed to constructor: %s' % \
                 ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.temperature = kwargs.get('temperature', float())
-        self.humidity = kwargs.get('humidity', float())
+        self.temperature = kwargs.get('temperature', int())
+        self.humidity = kwargs.get('humidity', int())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -143,10 +141,10 @@ class Sensor_Request(metaclass=Metaclass_Sensor_Request):
     def temperature(self, value):
         if self._check_fields:
             assert \
-                isinstance(value, float), \
-                "The 'temperature' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'temperature' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+                isinstance(value, int), \
+                "The 'temperature' field must be of type 'int'"
+            assert value >= -9223372036854775808 and value < 9223372036854775808, \
+                "The 'temperature' field must be an integer in [-9223372036854775808, 9223372036854775807]"
         self._temperature = value
 
     @builtins.property
@@ -158,10 +156,10 @@ class Sensor_Request(metaclass=Metaclass_Sensor_Request):
     def humidity(self, value):
         if self._check_fields:
             assert \
-                isinstance(value, float), \
-                "The 'humidity' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'humidity' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+                isinstance(value, int), \
+                "The 'humidity' field must be of type 'int'"
+            assert value >= -9223372036854775808 and value < 9223372036854775808, \
+                "The 'humidity' field must be an integer in [-9223372036854775808, 9223372036854775807]"
         self._humidity = value
 
 
